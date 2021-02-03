@@ -63,7 +63,7 @@ function MatureHarvestable.sv_n_harvest( self, params, player )
 		local container = player:getInventory()
 		if sm.container.beginTransaction() then
 			sm.container.collect( container, sm.uuid.new( self.data.harvest ), self.data.amount, true )
-			sm.container.collect( container, sm.uuid.new( self.data.seed ), randomStackAmountAvg2(), true )
+			sm.container.collect( container, sm.uuid.new( self.data.seed ), randomstackamount ( 0.5, 1, 2 ) , true )
 			if sm.container.endTransaction() then
 				sm.effect.playEffect( "Plants - Picked", self.harvestable:getPosition() )
 				sm.harvestable.create( hvs_soil, self.harvestable:getPosition(), self.harvestable:getRotation() )
