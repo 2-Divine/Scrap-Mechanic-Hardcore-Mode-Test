@@ -24,7 +24,7 @@ function MatureHarvestable.server_onMelee( self, hitPos, attacker, damage )
 			}
 			local seed = {
 				lootUid = sm.uuid.new( self.data.seed ),
-				lootQuantity = randomStackAmountAvg1()
+				lootQuantity = randomStackAmount( 1, 1.25, 2)
 			}
 			local pos = self.harvestable:getPosition() + sm.vec3.new( 0, 0, 0.5 )
 			sm.projectile.harvestableCustomProjectileAttack( harvest, "loot", 0, pos, sm.noise.gunSpread( sm.vec3.new( 0, 0, 1 ), 20 ) * 5, self.harvestable, 0 )
@@ -63,7 +63,7 @@ function MatureHarvestable.sv_n_harvest( self, params, player )
 		local container = player:getInventory()
 		if sm.container.beginTransaction() then
 			sm.container.collect( container, sm.uuid.new( self.data.harvest ), self.data.amount, true )
-			sm.container.collect( container, sm.uuid.new( self.data.seed ), randomstackamount ( 0.5, 1, 2 ) , true )
+			sm.container.collect( container, sm.uuid.new( self.data.seed ), randomStackAmount( 1, 1.25, 2), true )
 			if sm.container.endTransaction() then
 				sm.effect.playEffect( "Plants - Picked", self.harvestable:getPosition() )
 				sm.harvestable.create( hvs_soil, self.harvestable:getPosition(), self.harvestable:getRotation() )
