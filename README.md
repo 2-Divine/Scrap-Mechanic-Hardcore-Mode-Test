@@ -1,5 +1,5 @@
 # Scrap-Mechanic
-Mods and changes to Scrap Mechanic Survival Mod 
+Mods and changes to Scrap Mechanic Survival Mod.
 Replace Original Game files with ones in this directory. 
 Files should show the path they need to be in. All files are in Scrap Mechanic Survival Folder. 
 To find the Scrap Mechanic File folder open steam and select Scrap Mechanic. Next, Select the settings Icon, then select properties. Finally, select Local Files and Browse. 
