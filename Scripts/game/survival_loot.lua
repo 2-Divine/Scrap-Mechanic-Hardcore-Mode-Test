@@ -12,7 +12,7 @@ local random_loot = {
 	{ uuid = obj_plantables_banana, 		chance = 10,	quantity = 1 },
 	{ uuid = obj_plantables_blueberry, 		chance = 10,	quantity = 1 },
 	{ uuid = obj_plantables_orange, 		chance = 10,	quantity = 1 },
-	{ uuid = obj_plantables_potato, 		chance = 20,	quantity = randomStackAmountAvg20 },
+	{ uuid = obj_plantables_potato, 		chance = 20,	quantity = randomStackAmount20 },
 
 	{ uuid = obj_consumable_sunshake, 		chance = 15 },
 
@@ -38,7 +38,7 @@ local random_epicloot = {
 	{ uuid = obj_plantables_banana, 		chance = 10,	quantity = randomStackAmountAvg2 },
 	{ uuid = obj_plantables_blueberry, 		chance = 10,	quantity = randomStackAmountAvg2 },
 	{ uuid = obj_plantables_orange, 		chance = 10,	quantity = randomStackAmountAvg2 },
-	{ uuid = obj_plantables_potato, 		chance = 20,	quantity = randomStackAmountAvg20 },
+	{ uuid = obj_plantables_potato, 		chance = 20,	quantity = randomStackAmount20 },
 
 	{ uuid = obj_consumable_sunshake, 		chance = 15 },
 	{ uuid = obj_consumable_longsandwich, 	chance = 15 },
