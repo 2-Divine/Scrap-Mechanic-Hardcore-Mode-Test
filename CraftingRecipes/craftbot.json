@@ -1,3 +1,4 @@
+// this file is generated
 [
 	{
 		"itemId": "8c7efc37-cd7c-4262-976e-39585f8527bf", //tool_connect 
@@ -682,6 +683,21 @@
 		]
 	},
 	{
+		"itemId": "847daf20-02bf-4170-8699-9ab106acd29a", //obj_scrap_seat
+		"quantity": 1,
+		"craftTime": 22,
+		"ingredientList": [
+			{
+				"quantity": 50, //blk_scrapwood
+				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811"
+			},
+			{ 
+				"quantity": 1, //obj_resource_circuitboard
+				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
+			}
+		]
+	},
+	{
 		"itemId": "bd597ac9-6640-43ba-9bd8-ed584a794f13", //obj_scrap_driverseat
 		"quantity": 1,
 		"craftTime": 32,
@@ -705,74 +721,13 @@
 		]
 	},
 	{
-		"itemId": "77c2687c-2e13-4df8-996a-96fb26d75ee0", //obj_interactive_driverseat_01
-		"quantity": 1,
-		"craftTime": 57,
-		"ingredientList": [
-			{
-				"quantity": 1, //obj_scrap_driverseat
-				"itemId": "bd597ac9-6640-43ba-9bd8-ed584a794f13"
-			},
-			{
-				"quantity": 1, //obj_interactive_controller_01
-				"itemId": "598d865c-324c-4129-9c57-21a6abd2cb2e"
-			},
-			{
-				"quantity": 5, //jnt_bearing
-				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
-			},
-			{
-				"quantity": 10, //obj_resource_cotton
-				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
-			}
-		]
-	},
-	{
-		"itemId": "7d601a5a-796d-4cae-be88-b47479d38d11", //obj_interactive_driversaddle_01
-		"quantity": 1,
-		"craftTime": 57,
-		"ingredientList": [
-			{
-				"quantity": 1, //obj_scrap_driverseat
-				"itemId": "bd597ac9-6640-43ba-9bd8-ed584a794f13"
-			},
-			{
-				"quantity": 1, //obj_interactive_controller_01
-				"itemId": "598d865c-324c-4129-9c57-21a6abd2cb2e"
-			},
-			{
-				"quantity": 5, //jnt_bearing
-				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
-			},
-			{
-				"quantity": 10, //obj_resource_cotton
-				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
-			}
-		]
-	},
-	{
-		"itemId": "847daf20-02bf-4170-8699-9ab106acd29a", //obj_scrap_seat
-		"quantity": 1,
-		"craftTime": 22,
-		"ingredientList": [
-			{
-				"quantity": 50, //blk_scrapwood
-				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811"
-			},
-			{ 
-				"quantity": 1, //obj_resource_circuitboard
-				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
-			}
-		]
-	},
-	{
 		"itemId": "3b972f2f-30c7-4a5e-a100-5e257e62295d", //obj_interactive_seat_01
 		"quantity": 1,
 		"craftTime": 37,
 		"ingredientList": [
 			{
-				"quantity": 1, //obj_scrap_seat
-				"itemId": "847daf20-02bf-4170-8699-9ab106acd29a"
+				"quantity": 1, //obj_scrap_driverseat
+				"itemId": "bd597ac9-6640-43ba-9bd8-ed584a794f13"
 			},
 			{
 				"quantity": 5, //blk_metal2
@@ -794,8 +749,8 @@
 		"craftTime": 37,
 		"ingredientList": [
 			{
-				"quantity": 1, //obj_scrap_seat
-				"itemId": "847daf20-02bf-4170-8699-9ab106acd29a"
+				"quantity": 1, //obj_scrap_driverseat
+				"itemId": "bd597ac9-6640-43ba-9bd8-ed584a794f13"
 			},
 			{
 				"quantity": 5, //blk_metal2
@@ -804,6 +759,52 @@
 			{
 				"quantity": 5, //obj_consumable_component
 				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
+			},
+			{
+				"quantity": 10, //obj_resource_cotton
+				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
+			}
+		]
+	},
+	{
+		"itemId": "77c2687c-2e13-4df8-996a-96fb26d75ee0", //obj_interactive_driverseat_01
+		"quantity": 1,
+		"craftTime": 57,
+		"ingredientList": [
+			{
+				"quantity": 1, //obj_interactive_seat_01
+				"itemId": "3b972f2f-30c7-4a5e-a100-5e257e62295d"
+			},
+			{
+				"quantity": 1, //obj_interactive_controller_01
+				"itemId": "598d865c-324c-4129-9c57-21a6abd2cb2e"
+			},
+			{
+				"quantity": 5, //jnt_bearing
+				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
+			},
+			{
+				"quantity": 10, //obj_resource_cotton
+				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
+			}
+		]
+	},
+	{
+		"itemId": "7d601a5a-796d-4cae-be88-b47479d38d11", //obj_interactive_driversaddle_01
+		"quantity": 1,
+		"craftTime": 57,
+		"ingredientList": [
+			{
+				"quantity": 1, //obj_interactive_saddle_01
+				"itemId": "2d3016f7-febe-416e-93bc-41d80ca3910d"
+			},
+			{
+				"quantity": 1, //obj_interactive_controller_01
+				"itemId": "598d865c-324c-4129-9c57-21a6abd2cb2e"
+			},
+			{
+				"quantity": 5, //jnt_bearing
+				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
 			},
 			{
 				"quantity": 10, //obj_resource_cotton
