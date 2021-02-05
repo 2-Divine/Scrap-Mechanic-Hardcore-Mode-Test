@@ -272,8 +272,8 @@
 				"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b"
 			},
 			{
-				"quantity": 2, //blk_metal1
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"quantity": 2, //blk_metalnet
+				"itemId": "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b"
 			},
 			{
 				"quantity": 5, //obj_consumable_chemical
@@ -295,8 +295,8 @@
 				"itemId": "a6c6ce30-dd47-4587-b475-085d55c6a3b4"
 			},
 			{
-				"quantity": 2, //blk_metal2
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"quantity": 2, //blk_tryponet
+				"itemId": "ea6864db-bb4f-4a89-b9ec-977849b6713a"
 			},
 			{
 				"quantity": 5, //obj_consumable_chemical
@@ -318,8 +318,8 @@
 				"itemId": "ff234e42-5da4-43cc-8893-940547c97882"
 			},
 			{
-				"quantity": 4, //blk_metal3
-				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
+				"quantity": 4, //blk_crossnet
+				"itemId": "3d0b7a6e-5b40-474c-bbaf-efaa54890e6a"
 			},
 			{
 				"quantity": 7, //obj_consumable_chemical
@@ -328,6 +328,39 @@
 			{
 				"quantity": 7, //obj_consumable_water
 				"itemId": "869d4736-289a-4952-96cd-8a40117a2d28"
+			}
+		]
+	},
+	{
+		"itemId": "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b", //blk_metalnet
+		"quantity": 10,
+		"craftTime": 7,
+		"ingredientList": [
+			{
+				"quantity": 2, //blk_metal1
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+			}
+		]
+	},
+	{
+		"itemId": "ea6864db-bb4f-4a89-b9ec-977849b6713a", //blk_tryponet
+		"quantity": 10,
+		"craftTime": 7,
+		"ingredientList": [
+			{
+				"quantity": 2, //blk_metal2
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		"itemId": "3d0b7a6e-5b40-474c-bbaf-efaa54890e6a", //blk_crossnet
+		"quantity": 10,
+		"craftTime": 7,
+		"ingredientList": [
+			{
+				"quantity": 2, //blk_metal3
+				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
 			}
 		]
 	},
@@ -414,39 +447,6 @@
 			{
 				"quantity": 5, //blk_metal1
 				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
-			}
-		]
-	},
-	{
-		"itemId": "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b", //blk_metalnet
-		"quantity": 10,
-		"craftTime": 7,
-		"ingredientList": [
-			{
-				"quantity": 2, //blk_metal1
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
-			}
-		]
-	},
-	{
-		"itemId": "ea6864db-bb4f-4a89-b9ec-977849b6713a", //blk_tryponet
-		"quantity": 10,
-		"craftTime": 7,
-		"ingredientList": [
-			{
-				"quantity": 5, //blk_metal1
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
-			}
-		]
-	},
-	{
-		"itemId": "3d0b7a6e-5b40-474c-bbaf-efaa54890e6a", //blk_crossnet
-		"quantity": 10,
-		"craftTime": 7,
-		"ingredientList": [
-			{
-				"quantity": 5, //blk_metal2
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
 			}
 		]
 	},
