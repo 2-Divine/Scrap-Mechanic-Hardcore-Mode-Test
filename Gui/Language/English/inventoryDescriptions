@@ -203,7 +203,8 @@
 		"title": "Packing Lamp"
 	},
 	"1e89879f-1171-4bcd-9465-db7f740ab09e": {
-		"title": "obj_robotparts_tapebothead01"
+		"description": "TapeBot Central processing unit. ",
+		"title": "TapeBot CPU "
 	},
 	"1f343b76-3622-4e4b-9de4-238d43d60734": {
 		"title": "Office Chair Base"
@@ -995,7 +996,8 @@
 		"title": "Warehouse Fluorescent Light"
 	},
 	"7b4d4f21-9164-4d55-854f-670afd54f1cc": {
-		"title": "obj_robotparts_farmbotpart_head"
+		"description": "FarmBot Central processing unit. ",
+		"title": "FarmBot CPU "
 	},
 	"7b78d74f-c4c7-4c48-80f5-8f7f4bbd5de9": {
 		"title": "obj_harvests_trees_birch01_p03"
@@ -1816,7 +1818,8 @@
 		"title": "obj_destructable_tape_big_walltape02"
 	},
 	"e9b6ef48-2a41-4db2-b8bc-5fd3f179b04e": {
-		"title": "obj_robotparts_haybothead"
+		"description": " HayBot Central processing unit. ",
+		"title": "HayBot CPU"
 	},
 	"ea10d1af-b97a-46fb-8895-dfd1becb53bb": {
 		"description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water.",
@@ -1989,10 +1992,6 @@
 	},
 	"fff76292-79aa-4f0d-814f-72e51159d6d7": {
 		"title": "Base Extension"
-	},
-	"45055f6e-68d1-4063-a1b7-51f25ced4cd5": {
-		"description": "Used for crafting. ",
-		"title": "Technology Kit"
 	},
 	"d5e36413-b3c1-4636-8447-3410c352ec7b": {
 		"description": "Gas Engine that does not require fuel. ",
