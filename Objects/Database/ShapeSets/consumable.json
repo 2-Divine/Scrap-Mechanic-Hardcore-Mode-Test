@@ -279,9 +279,9 @@
 				"erasable": true
 			},
 			"edible": {
-				"hpGain": 75,
-				"foodGain": 75,
-				"waterGain": 75
+				"hpGain": 25,
+				"foodGain": 50,
+				"waterGain": 50
 			},
 			"autoTool": "2bff990a-0e74-43c7-b7dc-889b3a086fa3"
 		},
@@ -450,9 +450,9 @@
 				"erasable": true
 			},
 			"edible": {
-				"hpGain": 5,
-				"foodGain": 25,
-				"waterGain": 40
+				"hpGain": 0,
+				"foodGain": 10,
+				"waterGain": 20
 			},
 			"autoTool": "2bff990a-0e74-43c7-b7dc-889b3a086fa3"
 		},
