@@ -21,7 +21,7 @@
 				"buoyancy": 3
 			},
 			"flammable": true,
-			"stackSize": 10
+			"stackSize": 20
 		},
 		{
 			"uuid": "fcf0958c-084d-4854-9b1b-b06594b4262a",
@@ -112,7 +112,7 @@
 				"buoyancy": 3
 			},
 			"flammable": true,
-			"stackSize": 10,
+			"stackSize": 20,
 			"restrictions": {
 				"paintable": false
 			}
