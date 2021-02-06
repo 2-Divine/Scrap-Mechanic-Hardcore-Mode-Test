@@ -14,6 +14,10 @@
 				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811"
 			},
 			{
+				"quantity": 20, //obj_resource_crudeoil
+				"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0"
+			},
+			{
 				"quantity": 3, //obj_resource_circuitboard
 				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
 			}
@@ -24,6 +28,10 @@
 		"quantity": 1,
 		"craftTime": 32,
 		"ingredientList": [
+			{
+				"quantity": 1, //obj_scrap_seat
+				"itemId": "847daf20-02bf-4170-8699-9ab106acd29a"
+			},
 			{
 				"quantity": 10, //blk_scrapmetal
 				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
@@ -76,6 +84,14 @@
 			{
 				"quantity": 5, //blk_scrapmetal
 				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
+			},
+			{
+				"quantity": 1, //obj_resource_beewax
+				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
+			},
+			{
+				"quantity": 1, //obj_resource_circuitboard
+				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
 			}
 		]
 	},
@@ -97,14 +113,22 @@
 	{
 		"itemId": "7cf717d7-d167-4f2d-a6e7-6b2c70aa3986", //obj_interactive_switch
 		"quantity": 1,
-		"craftTime": 22,
+		"craftTime": 12,
 		"ingredientList": [
 			{
 				"quantity": 1, //blk_scrapmetal
 				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
 			},
 			{
-				"quantity": 1, //obj_resource_circuitboard
+				"quantity": 1, //jnt_bearing
+				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
+			},
+			{
+				"quantity": 1, //obj_consumable_glue
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+			},
+			{
+				"quantity": 3, //obj_resource_circuitboard
 				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
 			}
 		]
@@ -112,14 +136,22 @@
 	{
 		"itemId": "1e8d93a4-506b-470d-9ada-9c0a321e2db5", //obj_interactive_button
 		"quantity": 1,
-		"craftTime": 22,
+		"craftTime": 12,
 		"ingredientList": [
 			{
 				"quantity": 1, //blk_scrapmetal
 				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
 			},
 			{
-				"quantity": 1, //obj_resource_circuitboard
+				"quantity": 1, //jnt_bearing
+				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
+			},
+			{
+				"quantity": 1, //obj_consumable_glue
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+			},
+			{
+				"quantity": 3, //obj_resource_circuitboard
 				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
 			}
 		]
