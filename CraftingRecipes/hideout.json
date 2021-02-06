@@ -130,25 +130,6 @@
 			}
 		]
 	},
-	{	
-	"itemId": "45055f6e-68d1-4063-a1b7-51f25ced4cd5", //obj_consumable_Technology_Kit
-	"quantity": 1,
-	"craftTime": 0,
-	"ingredientList": [
-			{
-				"quantity": 5, //obj_crates_pineapple
-				"itemId": "bc69cb3b-7e0c-4c36-805d-f8d89fcfced3"
-			}, 
-			{
-				"quantity": 5, //obj_crates_broccoli
-				"itemId": "99477093-e819-4199-b62a-fda6143aae89"
-			},
-			{
-				"quantity": 1, //obj_survivalobject_farmerball
-				"itemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
-			}
-		]
-	},
 	{
 	"itemId": "69559e81-50fa-40ae-afa2-a22c1a49eb54", //obj_interactive_watergun
 	"quantity": 1,
