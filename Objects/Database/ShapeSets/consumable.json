@@ -452,7 +452,7 @@
 			"edible": {
 				"hpGain": 0,
 				"foodGain": 10,
-				"waterGain": 20
+				"waterGain": 40
 			},
 			"autoTool": "2bff990a-0e74-43c7-b7dc-889b3a086fa3"
 		},
