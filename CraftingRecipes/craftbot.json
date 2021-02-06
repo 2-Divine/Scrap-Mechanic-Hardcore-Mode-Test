@@ -1,6 +1,21 @@
 // this file is generated
 [
 	{
+		"itemId": "a6ec1dcc-07e9-418a-819e-904e28a32f63", //obj_decor_mug
+		"quantity": 1,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1000, //blk_metal3
+				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
+			},
+			{
+				"quantity": 1000, //obj_survivalobject_keycard
+				"itemId": "e49b210a-0d46-4f06-bcd8-08862379d156"
+			}
+		]
+	},
+	{
 		"itemId": "8c7efc37-cd7c-4262-976e-39585f8527bf", //tool_connect 
 		"quantity": 1,
 		"craftTime": 32,
@@ -669,8 +684,8 @@
 				"itemId": "c96ab903-f238-4bae-a614-28a758716d00"
 			},
 			{
-				"quantity": 10, //jnt_bearing
-				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
+				"quantity": 2, //jnt_interactive_piston_01
+				"itemId": "8c741785-5eae-4c48-9f99-d62bf522a83f"
 			},
 			{
 				"quantity": 20, //obj_consumable_component
@@ -837,8 +852,8 @@
 				"itemId": "59f6951a-a450-42bf-ad03-54567cb70245"
 			},
 			{
-				"quantity": 15, //blk_wood2
-				"itemId": "1897ee42-0291-43e4-9645-8c5a5d310398"
+				"quantity": 10, //blk_metal2
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
 			},
 			{
 				"quantity": 3, //obj_consumable_glue
@@ -956,8 +971,8 @@
 				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
 			},
 			{
-				"quantity": 2, //jnt_bearing
-				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
+				"quantity": 2, //blk_glass
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f"
 			},
 			{
 				"quantity": 2, //obj_resource_circuitboard
@@ -983,8 +998,8 @@
 				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
 			},
 			{
-				"quantity": 10, //obj_consumable_glue
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+				"quantity": 1, //obj_interactive_gasengine_01
+				"itemId": "1bfccc0a-828f-475c-882c-87d5a96054c9" 
 			}
 		]
 	},
@@ -1117,8 +1132,8 @@
 				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
 			},
 			{
-				"quantity": 1, //obj_consumable_glue
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+				"quantity": 1, //obj_resource_beewax
+				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
 			}
 		]
 	},
@@ -1138,25 +1153,6 @@
 			{
 				"quantity": 5, //obj_resource_beewax
 				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
-			}
-		]
-	},
-	{
-		"itemId": "5eb8975b-0acf-43a7-ab4e-62ce661c0df7", //obj_interactive_comfybed
-		"quantity": 1,
-		"craftTime": 57,
-		"ingredientList": [
-			{
-				"quantity": 50, //blk_wood3
-				"itemId": "061b5d4b-0a6a-4212-b0ae-9e9681f1cbfb"
-			},
-			{
-				"quantity": 20, //obj_resource_cotton
-				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
-			},
-			{
-				"quantity": 10, //obj_consumable_inkammo
-				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
 			}
 		]
 	},
@@ -1390,7 +1386,7 @@
 				"itemId": "388adeab-67e5-4901-afe8-c56217754510"
 			},
 			{
-				"quantity": 5, //obj_consumable_inkammo
+				"quantity": 25, //obj_consumable_inkammo
 				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
 			}
 		]
@@ -1409,7 +1405,7 @@
 				"itemId": "388adeab-67e5-4901-afe8-c56217754510"
 			},
 			{
-				"quantity": 10, //obj_consumable_inkammo
+				"quantity": 50, //obj_consumable_inkammo
 				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
 			},
 			{
@@ -1661,17 +1657,6 @@
 			{
 				"quantity": 3, //obj_resource_circuitboard
 				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
-			}
-		]
-	},
-	{
-		"itemId": "a6ec1dcc-07e9-418a-819e-904e28a32f63", //obj_decor_mug
-		"quantity": 1,
-		"craftTime": 2,
-		"ingredientList": [
-			{
-				"quantity": 1, //blk_metal1
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
 			}
 		]
 	},
