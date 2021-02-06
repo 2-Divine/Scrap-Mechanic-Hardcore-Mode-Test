@@ -248,6 +248,17 @@
 		]
 	},
 	{
+	"itemId": "da4833fd-f981-4e08-a9f7-48e630a7c146", //obj_container_battery
+	"quantity": 1,
+	"craftTime": 0,
+	"ingredientList": [
+			{
+				"quantity": 1, //obj_crates_redbeet
+				"itemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+			}
+		]
+	},
+	{
 	"itemId": "ea10d1af-b97a-46fb-8895-dfd1becb53bb", //obj_container_water
 	"quantity": 1,
 	"craftTime": 0,
@@ -286,9 +297,9 @@
 	"craftTime": 0,
 	"ingredientList": [
 			{
-				"quantity": 1, //obj_crates_tomato
-				"itemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
-			}   
+				"quantity": 1, //obj_crates_carrot
+				"itemId": "9cd8288c-5a19-479f-af47-9eb55230ade2"
+			}  
 		]
 	},
 	{
@@ -297,20 +308,13 @@
 	"craftTime": 0,
 	"ingredientList": [
 			{
+				"quantity": 1, //obj_crates_pineapple
+				"itemId": "bc69cb3b-7e0c-4c36-805d-f8d89fcfced3"
+			},
+			{
 				"quantity": 1, //obj_crates_broccoli
 				"itemId": "99477093-e819-4199-b62a-fda6143aae89"
 			}    
-		]
-	},
-	{
-	"itemId": "da4833fd-f981-4e08-a9f7-48e630a7c146", //obj_container_battery
-	"quantity": 1,
-	"craftTime": 0,
-	"ingredientList": [
-			{
-				"quantity": 1, //obj_crates_pineapple
-				"itemId": "bc69cb3b-7e0c-4c36-805d-f8d89fcfced3"
-			} 
 		]
 	},
 	{
@@ -425,15 +429,11 @@
 		"craftTime": 0,
 		"ingredientList": [
 			{
-				"quantity": 50, //obj_crates_banana
-				"itemId": "0bc74539-df8a-47c7-aad8-d55d809a01e4"
-			},
-			{
-				"quantity": 25, //obj_crates_broccoli
+				"quantity": 5, //obj_crates_broccoli
 				"itemId": "99477093-e819-4199-b62a-fda6143aae89"
 			},
 			{
-				"quantity": 25, //obj_crates_pineapple
+				"quantity": 5, //obj_crates_pineapple
 				"itemId": "bc69cb3b-7e0c-4c36-805d-f8d89fcfced3"
 			},
 			{
@@ -463,12 +463,12 @@
 		"craftTime": 0,
 		"ingredientList": [
 			{
-				"quantity": 1, //obj_crates_orange
-				"itemId": "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2"
+				"quantity": 1, //obj_crates_carrot
+				"itemId": "9cd8288c-5a19-479f-af47-9eb55230ade2"
 			},
 			{
-				"quantity": 1, //obj_crates_blueberry
-				"itemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+				"quantity": 1, //obj_crates_redbeet
+				"itemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
 			}
 		]
 	},
