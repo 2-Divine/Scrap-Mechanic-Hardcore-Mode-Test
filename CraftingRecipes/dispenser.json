@@ -1,3 +1,4 @@
+// this file is generated
 [
 	{
 		"itemId": "b63c6440-dfc2-4da7-acdb-3c385080b2e4", //obj_craftbot_craftbot1
@@ -32,8 +33,8 @@
 				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
 			},
 			{
-				"quantity": 3, //obj_consumable_Technology_Kit
-				"itemId": "45055f6e-68d1-4063-a1b7-51f25ced4cd5"
+				"quantity": 1, //obj_robotparts_tapebothead01
+				"itemId": "1e89879f-1171-4bcd-9465-db7f740ab09e"
 			}
 		]
 	},
@@ -47,8 +48,8 @@
 				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
 			},
 			{
-				"quantity": 1, //obj_consumable_Technology_Kit
-				"itemId": "45055f6e-68d1-4063-a1b7-51f25ced4cd5"
+				"quantity": 10, //obj_interactive_robotbliphead01 
+				"itemId": "1c04327f-1de4-4b06-92a8-2c9b40e491aa"
 			}
 		]
 	},
@@ -66,8 +67,8 @@
 				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
 			},
 			{
-				"quantity": 5, //obj_consumable_Technology_Kit
-				"itemId": "45055f6e-68d1-4063-a1b7-51f25ced4cd5"
+				"quantity": 1, //obj_robotparts_farmbotpart_head
+				"itemId": "7b4d4f21-9164-4d55-854f-670afd54f1cc"
 			}
 		]
 	},
@@ -85,8 +86,8 @@
 				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
 			},
 			{
-				"quantity": 2, //obj_consumable_Technology_Kit
-				"itemId": "45055f6e-68d1-4063-a1b7-51f25ced4cd5"
+				"quantity": 1, //obj_robotparts_haybothead
+				"itemId": "e9b6ef48-2a41-4db2-b8bc-5fd3f179b04e"
 			}
 		]
 	}
