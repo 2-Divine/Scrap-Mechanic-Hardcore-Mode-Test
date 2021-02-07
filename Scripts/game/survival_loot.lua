@@ -6,9 +6,9 @@ dofile( "$SURVIVAL_DATA/Scripts/game/survival_constants.lua" )
 -- A chance of 100 makes the item 100 times more likely than with a chance of 1
 
 local random_loot = {
-	{ uuid = obj_plantables_carrot, 		chance = 5,	quantity = 1 },
-	{ uuid = obj_plantables_redbeet, 		chance = 5,	quantity = 1 },
-	{ uuid = obj_plantables_tomato, 		chance = 5,	quantity = 1 },
+	{ uuid = obj_plantables_carrot, 		chance = 5,		quantity = 1 },
+	{ uuid = obj_plantables_redbeet, 		chance = 5,		quantity = 1 },
+	{ uuid = obj_plantables_tomato, 		chance = 5,		quantity = 1 },
 	{ uuid = obj_plantables_potato, 		chance = 10,	quantity = randomStackAmountAvg5 },
 
 	{ uuid = obj_consumable_sunshake, 		chance = 5 },
@@ -27,9 +27,9 @@ local random_loot = {
 	{ uuid = obj_consumable_inkammo,		chance = 40,	quantity = randomStackAmount10 },
 	{ uuid = obj_consumable_glowstick,		chance = 20,	quantity = 1 },
 
-	{ uuid = obj_scrap_smallwheel,			chance = 5,	quantity = 1 },
-	{ uuid = obj_scrap_seat,				chance = 5,	quantity = 1 },
-	{ uuid = obj_manmade_shacklight,		chance = 5,	quantity = 1 },
+	{ uuid = obj_scrap_smallwheel,			chance = 5,		quantity = 1 },
+	{ uuid = obj_scrap_seat,				chance = 5,		quantity = 1 },
+	{ uuid = obj_manmade_shacklight,		chance = 5,		quantity = 1 },
 	
 	{ uuid = blk_glass,						chance = 20,	quantity = randomStackAmount10 },
 
@@ -156,7 +156,7 @@ local loot_crate_startarea = {
 	selectOne = {
 		{ uuid = obj_consumable_component,		chance = 1 },
 		{ uuid = obj_resource_circuitboard,		chance = 1 },
-		{ uuid = nil,						chance = 3 }, -- No loot from selectOne
+		{ uuid = nil,							chance = 3 }, -- No loot from selectOne
 	},
 	randomLoot = random_loot_startarea
 }
@@ -166,7 +166,7 @@ local loot_crate_standard_warehouse = {
 	selectOne = {
 		{ uuid = obj_plantables_broccoli, 		chance = 1,		quantity = 1 },
 		{ uuid = obj_plantables_pineapple, 		chance = 1,		quantity = 1 },
-		{ uuid = nil,						chance = 5 }, -- No loot from selectOne
+		{ uuid = nil,							chance = 5 }, -- No loot from selectOne
 	},
 	randomLoot = random_warehouseloot
 }
@@ -174,10 +174,9 @@ local loot_crate_standard_warehouse = {
 local loot_ruinchest = {
 	slots = function() return randomStackAmount( 1, 2, 6 ) end,
 	selectOne = {
-		{ uuid = obj_plantables_carrot,			chance = 1 },
+		{ uuid = obj_plantables_carrot,			chance = 2 },
 		{ uuid = obj_plantables_redbeet,		chance = 1 },
 		{ uuid = obj_plantables_tomato,			chance = 1 },
-		{ uuid = obj_consumable_sunshake, 		chance = 1 },
 	},
 	randomLoot = random_loot
 }
@@ -214,27 +213,29 @@ local loot_glow_goop = {
 }
 
 local loot_totebot_green = {
-	slots = function() return 1 end,
+	slots = function() return randomStackAmount( 0, 0.50, 1 ) end,
 	randomLoot = {
 		{ uuid = obj_resource_circuitboard,		chance = 1 },
 	}
 }
 
 local loot_haybot = {
-	slots = function() return randomStackAmount( 1, 1, 1 ) end,
+	slots = function() return randomStackAmount( 0, 0.50, 1 ) end,
 	randomLoot = {
-		{ uuid = obj_resource_circuitboard,		chance = 6 },		
-		{ uuid = obj_consumable_component,		chance = 13 },
+		{ uuid = jnt_bearing,					chance = 2 },
+		{ uuid = obj_consumable_glue,			chance = 4 },		
+		{ uuid = obj_consumable_component,		chance = 12 },
 		{ uuid = obj_robotparts_haybothead,		chance = 1 },
 	}
 }
 
 local loot_tapebot = {
-	slots = function() return randomStackAmount( 1, 1, 1 ) end,
+	slots = function() return randomStackAmount( 0, 0.75, 1 ) end,
 	randomLoot = {
 		{ uuid = obj_robotparts_tapebothead01,	chance = 1 },
-		{ uuid = obj_consumable_component,		chance = 13, 		quantity = randomStackAmountAvg2 },
-		{ uuid = obj_consumable_battery,		chance = 6 },
+		{ uuid = obj_plantables_potato, 		chance = 4,		quantity = randomStackAmountAvg5 },
+		{ uuid = obj_consumable_component,		chance = 12, 	quantity = randomStackAmountAvg2 },
+		{ uuid = obj_consumable_battery,		chance = 2 },
 	}
 }
 
@@ -244,7 +245,7 @@ local loot_farmbot = {
 		{ uuid = obj_survivalobject_keycard,		chance = 1 },
 	},
 	randomLoot = {
-		{ uuid = obj_consumable_component,			chance = 9,		quantity = randomStackAmountAvg10 },
+		{ uuid = obj_consumable_component,			chance = 9,	quantity = randomStackAmountAvg10 },
 		{ uuid = obj_robotparts_farmbotpart_head,	chance = 1 },
 	}
 }
