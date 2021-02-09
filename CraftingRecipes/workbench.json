@@ -80,10 +80,6 @@
 			{
 				"quantity": 1, //obj_resource_beewax
 				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
-			},
-			{
-				"quantity": 1, //obj_resource_circuitboard
-				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
 			}
 		]
 	},
