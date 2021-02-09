@@ -6,16 +6,16 @@
 		"craftTime": 8,
 		"ingredientList": [
 			{
-				"quantity": 90, //blk_scrapmetal
+				"quantity": 150, //blk_scrapmetal
 				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
-			},
-			{
-				"quantity": 10, //obj_resource_circuitboard
-				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
 			},
 			{
 				"quantity": 10, //obj_consumable_component
 				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
+			},
+			{
+				"quantity": 10, //obj_robotparts_haybothead
+				"itemId": "e9b6ef48-2a41-4db2-b8bc-5fd3f179b04e"
 			}
 		]
 	},
@@ -33,7 +33,7 @@
 				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
 			},
 			{
-				"quantity": 1, //obj_robotparts_tapebothead01
+				"quantity": 10, //obj_robotparts_tapebothead01
 				"itemId": "1e89879f-1171-4bcd-9465-db7f740ab09e"
 			}
 		]
@@ -67,7 +67,7 @@
 				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
 			},
 			{
-				"quantity": 1, //obj_robotparts_farmbotpart_head
+				"quantity": 5, //obj_robotparts_farmbotpart_head
 				"itemId": "7b4d4f21-9164-4d55-854f-670afd54f1cc"
 			}
 		]
@@ -86,7 +86,7 @@
 				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
 			},
 			{
-				"quantity": 1, //obj_robotparts_haybothead
+				"quantity": 5, //obj_robotparts_haybothead
 				"itemId": "e9b6ef48-2a41-4db2-b8bc-5fd3f179b04e"
 			}
 		]
