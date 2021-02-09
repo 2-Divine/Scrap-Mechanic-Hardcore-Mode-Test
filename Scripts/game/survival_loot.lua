@@ -174,9 +174,9 @@ local loot_crate_standard_warehouse = {
 local loot_ruinchest = {
 	slots = function() return randomStackAmount( 1, 2, 6 ) end,
 	selectOne = {
-		{ uuid = obj_plantables_carrot,			chance = 2 },
-		{ uuid = obj_plantables_redbeet,		chance = 1 },
-		{ uuid = obj_plantables_tomato,			chance = 1 },
+		{ uuid = obj_plantables_carrot,			chance = 2,	quantity = randomStackAmountAvg2 },
+		{ uuid = obj_plantables_redbeet,		chance = 1,	quantity = randomStackAmountAvg2 },
+		{ uuid = obj_plantables_tomato,			chance = 1,	quantity = randomStackAmountAvg2 },
 	},
 	randomLoot = random_loot
 }
@@ -184,9 +184,9 @@ local loot_ruinchest = {
 local loot_ruinchest_startarea = {
 	slots = function() return randomStackAmount( 1, 1.5, 4 ) end,
 	selectOne = {
-		{ uuid = obj_plantables_carrot,			chance = 2 },
-		{ uuid = obj_plantables_redbeet,		chance = 1 },
-		{ uuid = obj_plantables_tomato,			chance = 1 },
+		{ uuid = obj_plantables_carrot,			chance = 2,	quantity = randomStackAmountAvg2 },
+		{ uuid = obj_plantables_redbeet,		chance = 1,	quantity = randomStackAmountAvg2 },
+		{ uuid = obj_plantables_tomato,			chance = 1,	quantity = randomStackAmountAvg2 },
 	},	
 	randomLoot = random_loot_startarea
 }
