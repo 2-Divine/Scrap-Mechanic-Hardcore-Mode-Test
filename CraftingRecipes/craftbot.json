@@ -86,15 +86,15 @@
 		"craftTime": 57,			
 		"ingredientList": [			
 			{		 
-				"quantity": 40,	//blk_wood1
-				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"	
+				"quantity": 40, //blk_metal1
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"	
 			},
 			{
-				"quantity": 2, //obj_consumable_component
+				"quantity": 5, //obj_consumable_component
 				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
 			},
 			{
-				"quantity": 3, //jnt_bearing
+				"quantity": 2, //jnt_bearing
 				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
 			},
 			{		 
@@ -113,15 +113,15 @@
 				"itemId": "fcfae5e2-1df9-47d8-bb9a-30bec9b5b1f5"
 			},
 			{
-				"quantity": 60, //blk_metal3
-				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
+				"quantity": 60, //blk_metal2
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
 			},
 			{
 				"quantity": 10, //obj_consumable_component
 				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
 			},
 			{
-				"quantity": 7, //obj_consumable_glue
+				"quantity": 5, //obj_consumable_glue
 				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
 			}
 		]
@@ -147,12 +147,8 @@
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 15, //blk_scrapwood
+				"quantity": 20, //blk_scrapwood
 				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811"
-			},
-			{
-				"quantity": 1, //obj_consumable_water
-				"itemId": "869d4736-289a-4952-96cd-8a40117a2d28"
 			}
 		]
 	},
@@ -162,16 +158,12 @@
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 15, //blk_wood1
+				"quantity": 20, //blk_wood1
 				"itemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
 			},
 			{
-				"quantity": 1, //blk_metal1
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
-			},
-			{
-				"quantity": 2, //obj_consumable_chemical
-				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25" 
+				"quantity": 2, //blk_metal2
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
 			},
 			{
 				"quantity": 1, //obj_consumable_glue
@@ -185,19 +177,15 @@
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 15, //blk_wood2
+				"quantity": 20, //blk_wood2
 				"itemId": "1897ee42-0291-43e4-9645-8c5a5d310398"
 			},
 			{
-				"quantity": 1, //blk_metal2
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+				"quantity": 2, //blk_metal3
+				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
 			},
 			{
-				"quantity": 4, //obj_consumable_chemical
-				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25" 
-			},
-			{
-				"quantity": 2, //obj_consumable_glue
+				"quantity": 1, //obj_consumable_glue
 				"itemId": "36335664-6e61-4d44-9876-54f9660a8565" 
 			}
 		]
@@ -208,7 +196,7 @@
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 15, //blk_scrapmetal
+				"quantity": 5, //blk_scrapmetal
 				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
 			},
 			{
@@ -223,16 +211,20 @@
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 15, //blk_metalbricks
-				"itemId": "220b201e-aa40-4995-96c8-e6007af160de"
+				"quantity": 20, //blk_scrapmetal
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
+			},
+			{
+				"quantity": 1, //obj_consumable_chemical
+				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
 			},
 			{
 				"quantity": 1, //obj_consumable_water
 				"itemId": "869d4736-289a-4952-96cd-8a40117a2d28"
 			},
 			{
-				"quantity": 1, //obj_resource_crudeoil
-				"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0" 
+				"quantity": 1, //obj_resource_ember
+				"itemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4"
 			}
 		]
 	},
@@ -242,19 +234,19 @@
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 15, //blk_metal1
+				"quantity": 20, //blk_metal1
 				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
 			},
 			{
-				"quantity": 1, //obj_consumable_water
+				"quantity": 2, //obj_consumable_chemical
+				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
+			},
+			{
+				"quantity": 2, //obj_consumable_water
 				"itemId": "869d4736-289a-4952-96cd-8a40117a2d28"
 			},
 			{
-				"quantity": 4, //obj_resource_crudeoil
-				"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0" 
-			},
-			{
-				"quantity": 1, //obj_resource_ember
+				"quantity": 2, //obj_resource_ember
 				"itemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4"
 			}
 		]
@@ -265,19 +257,19 @@
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 15, //blk_metal2
+				"quantity": 20, //blk_metal2
 				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
 			},
 			{
-				"quantity": 2, //obj_consumable_water
+				"quantity": 4, //obj_consumable_chemical
+				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
+			},
+			{
+				"quantity": 4, //obj_consumable_water
 				"itemId": "869d4736-289a-4952-96cd-8a40117a2d28"
 			},
 			{
-				"quantity": 6, //obj_resource_crudeoil
-				"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0" 
-			},
-			{
-				"quantity": 2, //obj_resource_ember
+				"quantity": 3, //obj_resource_ember
 				"itemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4"
 			}
 		]
@@ -332,8 +324,8 @@
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 15, //blk_sand
-				"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b"
+				"quantity": 20, //blk_scrapstone
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
 			},
 			{
 				"quantity": 2, //blk_metalnet
@@ -355,7 +347,7 @@
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 15, //blk_concrete1
+				"quantity": 20, //blk_concrete1
 				"itemId": "a6c6ce30-dd47-4587-b475-085d55c6a3b4"
 			},
 			{
@@ -378,19 +370,19 @@
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 15, //blk_concrete2
+				"quantity": 20, //blk_concrete2
 				"itemId": "ff234e42-5da4-43cc-8893-940547c97882"
 			},
 			{
-				"quantity": 4, //blk_crossnet
+				"quantity": 2, //blk_crossnet
 				"itemId": "3d0b7a6e-5b40-474c-bbaf-efaa54890e6a"
 			},
 			{
-				"quantity": 7, //obj_consumable_chemical
+				"quantity": 5, //obj_consumable_chemical
 				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25" 
 			},
 			{
-				"quantity": 7, //obj_consumable_water
+				"quantity": 5, //obj_consumable_water
 				"itemId": "869d4736-289a-4952-96cd-8a40117a2d28"
 			}
 		]
@@ -1086,19 +1078,19 @@
 		"craftTime": 57,
 		"ingredientList": [
 			{
-				"quantity": 10, //blk_metal1
+				"quantity": 20, //blk_metal1
 				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
 			},
 			{
-				"quantity": 2, //obj_consumable_chemical
+				"quantity": 5, //obj_consumable_chemical
 				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
 			},
 			{
-				"quantity": 1, //obj_resource_circuitboard
+				"quantity": 5, //obj_resource_circuitboard
 				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
 			},
 			{
-				"quantity": 2, //obj_consumable_glue
+				"quantity": 5, //obj_consumable_glue
 				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
 			}
 		]
