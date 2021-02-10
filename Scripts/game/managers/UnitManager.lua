@@ -63,61 +63,73 @@ local Raiders = {
 	{
 		{ [unit_totebot_green] = 3 },
 		{ [unit_totebot_green] = 4 },
-		{ [unit_totebot_green] = 3, [unit_haybot] = 1 },
+		{ [unit_totebot_green] = 5 },
 	},
 	-- Raid level 2
+	{
+		{ [unit_totebot_green] = 4, [unit_haybot] = 1 },
+		{ [unit_totebot_green] = 3, [unit_haybot] = 1 },
+		{ [unit_totebot_green] = 4, [unit_haybot] = 1 },
+	},
+	-- Raid level 3
 	{
 		{ [unit_totebot_green] = 4, [unit_haybot] = 1 },
 		{ [unit_totebot_green] = 4, [unit_haybot] = 2 },
 		{ [unit_totebot_green] = 4, [unit_haybot] = 3 },
 	},
-	-- Raid level 3
-	{
-		{ [unit_totebot_green] = 4, [unit_haybot] = 2 },
-		{ [unit_totebot_green] = 4, [unit_haybot] = 3 },
-		{ [unit_totebot_green] = 4, [unit_haybot] = 5 },
-	},
 	-- Raid level 4
 	{
-		{ [unit_totebot_green] = 4, [unit_haybot] = 3 },
-		{ [unit_totebot_green] = 4, [unit_haybot] = 5 },
-		{ [unit_totebot_green] = 4, [unit_haybot] = 7 },
+		{ [unit_totebot_green] = 5, [unit_haybot] = 2 },
+		{ [unit_totebot_green] = 6, [unit_haybot] = 3 },
+		{ [unit_totebot_green] = 5, [unit_haybot] = 5 },
 	},
 	-- Raid level 5
 	{
-		{ [unit_totebot_green] = 4, [unit_haybot] = 4 },
-		{ [unit_totebot_green] = 4, [unit_haybot] = 6 },
-		{ [unit_totebot_green] = 4, [unit_haybot] = 8 },
+		{ [unit_totebot_green] = 6, [unit_haybot] = 3 },
+		{ [unit_totebot_green] = 8, [unit_haybot] = 4 },
+		{ [unit_totebot_green] = 6, [unit_haybot] = 7 },
 	},
 	-- Raid level 6
 	{
-		{ [unit_totebot_green] = 4, [unit_haybot] = 6 },
-		{ [unit_totebot_green] = 4, [unit_haybot] = 8 },
-		{ [unit_totebot_green] = 4, [unit_haybot] = 10 },
+		{ [unit_totebot_green] = 7, [unit_haybot] = 4 },
+		{ [unit_totebot_green] = 10, [unit_haybot] = 5 },
+		{ [unit_totebot_green] = 7, [unit_haybot] = 9 },
 	},
 	-- Raid level 7
 	{
-		{ [unit_totebot_green] = 3, [unit_haybot] = 6, [unit_tapebot] = 1 },
-		{ [unit_totebot_green] = 3, [unit_haybot] = 8, [unit_tapebot] = 1 },
-		{ [unit_totebot_green] = 3, [unit_haybot] = 10, [unit_tapebot] = 2 },
+		{ [unit_totebot_green] = 7, [unit_haybot] = 4, [unit_tapebot] = 1 },
+		{ [unit_totebot_green] = 11, [unit_haybot] = 5, [unit_tapebot] = 1 },
+		{ [unit_totebot_green] = 4, [unit_haybot] = 10, [unit_tapebot] = 2 },
 	},
 	-- Raid level 8
 	{
-		{ [unit_totebot_green] = 3, [unit_haybot] = 6, [unit_tapebot] = 2 },
-		{ [unit_totebot_green] = 3, [unit_haybot] = 8, [unit_tapebot] = 2 },
-		{ [unit_totebot_green] = 3, [unit_haybot] = 10, [unit_tapebot] = 3 },
+		{ [unit_totebot_green] = 7, [unit_haybot] = 4, [unit_tapebot] = 2 },
+		{ [unit_totebot_green] = 12, [unit_haybot] = 5, [unit_tapebot] = 2 },
+		{ [unit_totebot_green] = 4, [unit_haybot] = 11, [unit_tapebot] = 3 },
 	},
 	-- Raid level 9
 	{
-		{ [unit_totebot_green] = 3, [unit_haybot] = 6, [unit_tapebot] = 3 },
-		{ [unit_totebot_green] = 3, [unit_haybot] = 8, [unit_tapebot] = 3 },
-		{ [unit_totebot_green] = 3, [unit_haybot] = 10, [unit_tapebot] = 4, [unit_farmbot] = 1 },
+		{ [unit_totebot_green] = 7, [unit_haybot] = 4, [unit_tapebot] = 3 },
+		{ [unit_totebot_green] = 13, [unit_haybot] = 5, [unit_tapebot] = 3 },
+		{ [unit_totebot_green] = 4, [unit_haybot] = 12, [unit_tapebot] = 4 },
 	},
 	-- Raid level 10
 	{
-		{ [unit_totebot_green] = 3, [unit_haybot] = 6, [unit_tapebot] = 4, [unit_farmbot] = 1 },
-		{ [unit_totebot_green] = 3, [unit_haybot] = 6, [unit_tapebot] = 4, [unit_farmbot] = 1 },
-		{ [unit_totebot_green] = 3, [unit_haybot] = 6, [unit_tapebot] = 5, [unit_farmbot] = 3 },
+		{ [unit_totebot_green] = 7, [unit_haybot] = 4, [unit_tapebot] = 4 },
+		{ [unit_totebot_green] = 14, [unit_haybot] = 5, [unit_tapebot] = 4 },
+		{ [unit_totebot_green] = 4, [unit_haybot] = 13, [unit_tapebot] = 5 },
+	}
+	-- Raid level 11
+	{
+		{ [unit_totebot_green] = 7, [unit_haybot] = 4, [unit_tapebot] = 5 },
+		{ [unit_totebot_green] = 15, [unit_haybot] = 5, [unit_tapebot] = 5 },
+		{ [unit_totebot_green] = 4, [unit_haybot] = 14, [unit_tapebot] = 6 },
+	}
+	-- Raid level 12
+	{
+		{ [unit_totebot_green] = 5, [unit_haybot] = 4, [unit_tapebot] = 5, [unit_farmbot] = 1 },
+		{ [unit_totebot_green] = 11, [unit_haybot] = 4, [unit_tapebot] = 5, [unit_farmbot] = 2 },
+		{ [unit_totebot_green] = 4, [unit_haybot] = 9, [unit_tapebot] = 6, [unit_farmbot] = 3 },
 	}
 }
 
@@ -550,22 +562,26 @@ function UnitManager.sv_onWorldFixedUpdate( self, worldSelf )
 					local level
 
 					if highLevelCount >= 50 and cropValue >= 300 then
+						level = 12
+					elseif highLevelCount >= 40 and cropValue >= 200 then
+						level = 11
+					elseif highLevelCount >= 30 and cropValue >= 150 then
 						level = 10
-					elseif highLevelCount >= 20 and cropValue >= 150 then
+					elseif highLevelCount >= 20 and cropValue >= 100 then
 						level = 9
-					elseif highLevelCount >= 10 and cropValue >= 110 then
+					elseif highLevelCount >= 10 and cropValue >= 80 then
 						level = 8
-					elseif highLevelCount >= 5 and cropValue >= 80 then
+					elseif highLevelCount >= 5 and cropValue >= 60 then
 						level = 7
-					elseif cropValue >= 60 then
-						level = 6
 					elseif cropValue >= 50 then
-						level = 5
+						level = 6
 					elseif cropValue >= 40 then
-						level = 4
+						level = 5
 					elseif cropValue >= 30 then
-						level = 3
+						level = 4
 					elseif cropValue >= 20 then
+						level = 3
+					elseif cropValue >= 10 then
 						level = 2
 					else
 						level = 1
