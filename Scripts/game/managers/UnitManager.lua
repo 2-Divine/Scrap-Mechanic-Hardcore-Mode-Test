@@ -118,13 +118,13 @@ local Raiders = {
 		{ [unit_totebot_green] = 7, [unit_haybot] = 4, [unit_tapebot] = 4 },
 		{ [unit_totebot_green] = 14, [unit_haybot] = 5, [unit_tapebot] = 4 },
 		{ [unit_totebot_green] = 4, [unit_haybot] = 13, [unit_tapebot] = 5 },
-	}
+	},
 	-- Raid level 11
 	{
 		{ [unit_totebot_green] = 7, [unit_haybot] = 4, [unit_tapebot] = 5 },
 		{ [unit_totebot_green] = 15, [unit_haybot] = 5, [unit_tapebot] = 5 },
 		{ [unit_totebot_green] = 4, [unit_haybot] = 14, [unit_tapebot] = 6 },
-	}
+	},
 	-- Raid level 12
 	{
 		{ [unit_totebot_green] = 5, [unit_haybot] = 4, [unit_tapebot] = 5, [unit_farmbot] = 1 },
