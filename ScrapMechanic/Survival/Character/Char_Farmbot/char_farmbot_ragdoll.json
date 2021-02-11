@@ -1,0 +1,195 @@
+{
+	"settings" : {
+		"linearInfluenceSpeed" : 100.0,
+		"angularInfluenceSpeed" : 25.0,
+
+		"linearThreshold" : 0.1,
+		"angularThreshold" : 0.1,
+
+		"smoothing" : 0.8,
+
+		"colliders" : {
+			"body_collider" : {
+				"minStretch" : 0.8, "maxStretch" : 1.0,
+				"radius" : 0.3, "mass" : 50.0, "friction" : 1.0,
+				"rollingFriction" : 1.0, "spinningFriction" : 1.0, "restitution" : 0.0,
+				"selfCollision": false
+			},
+			"spine_collider" : {
+				"minStretch" : 0.8, "maxStretch" : 1.0,
+				"radius" : 0.2, "mass" : 30.0, "friction" : 1.0,
+				"offset" : 0.9,
+				"length" : 0.36,
+				"rollingFriction" : 1.0, "spinningFriction" : 1.0, "restitution" : 0.0
+			},
+			"neck_collider" : {
+				"minStretch" : 0.3, "maxStretch" : 1.0,
+				"radius" : 0.1, "mass" : 10.0, "friction" : 1.0,
+				"rollingFriction" : 1.0, "spinningFriction" : 1.0, "restitution" : 0.0
+			},
+			"head_collider" : {
+				"radius" : 0.35,
+				"length" : 0.35,
+				"offset" : 0.11,
+				"minStretch" : 0.8, 
+				"maxStretch" : 1.0,
+				"mass" : 40.0, 
+				"friction" : 1.0, 
+				"rollingFriction" : 1.0, 
+				"spinningFriction" : 1.0,
+				"restitution" : 0.0,
+				"box" : true,
+				"selfCollision": false
+			},
+			"leg01_collider" : {
+				"minStretch" : 1.0, "maxStretch" : 1.0,
+				"radius" : 0.15, "mass" : 20.0, "friction" : 1.0,
+				"rollingFriction" : 1.0, "spinningFriction" : 1.0, "restitution" : 0.0
+			},
+			"leg01_colliderActive" : {
+				"minStretch" : 1.0, "maxStretch" : 1.0,
+				"radius" : 0.15, "mass" : 20.0, "friction" : 1.0,
+				"rollingFriction" : 1.0, "spinningFriction" : 1.0, "restitution" : 0.0,
+				"selfCollision": false
+			},
+			"leg02_collider" : {
+				"minStretch" : 0.8, "maxStretch" : 1.0, 
+				"radius" : 0.15, "mass" : 30.0, "friction" : 1.0,
+				"rollingFriction" : 1.0, "spinningFriction" : 1.0,
+				"restitution" : 0.0
+			},
+			"arm_collider" : {
+				"radius" : 0.4,
+				"length" : 1.0,
+				"offset" : -0.1,
+				"box" : true,
+				"minStretch" : 0.8, "maxStretch" : 1.3,
+				"radius" : 0.09, "mass" : 70.0, "friction" : 1.0,
+				"rollingFriction" : 1.0, "spinningFriction" : 1.0, "restitution" : 0.0
+			}
+		},
+		"joints" : {
+			"head_joint" : {
+				"angularLowerLimit" : [-60, -5, -60],
+				"angularUpperLimit" : [60, 5, 60],
+
+				"linearLowerLimit" : [0, 0, 0],
+				"linearUpperLimit" : [0.05, 0.02, 0.02],
+
+				"cfm" : 0.1,
+				"erp" : 0.1
+			},
+			"spine_joint" : {
+				"angularLowerLimit" : [-10, -30, -40],
+				"angularUpperLimit" : [10, 30, 10],
+
+				"angularBounce" : [0, 0, 0],
+
+				"linearLowerLimit" : [0, 0, 0],
+				"linearUpperLimit" : [0.02, 0.02, 0.02],
+
+				"cfm" : 0.1,
+				"erp" : 0.1
+			},
+			"leg01_Joint" : {
+				"angularLowerLimit" : [-25, -25, -25],
+				"angularUpperLimit" : [25, 25, 25],
+
+
+				"linearLowerLimit" : [-0.01, -0.01, -0.01],
+				"linearUpperLimit" : [0.01, 0.01, 0.01],
+
+				"cfm" : 0.1,
+				"erp" : 0.1
+			},
+			"leg02_Joint" : {
+				"angularLowerLimit" : [-5, -10, -90],
+				"angularUpperLimit" : [5, 10, 10],
+
+				"angularBounce" : [0, 0, 0],
+
+				"linearLowerLimit" : [0, 0, 0],
+				"linearUpperLimit" : [0.002, 0.002, 0.002],
+
+				"cfm" : 0.1,
+				"erp" : 0.1
+			},
+			"sythe_Joint" : {
+				"angularLowerLimit" : [-5, -10, -90],
+				"angularUpperLimit" : [5, 10, 90],
+
+				"angularBounce" : [0, 0, 0],
+
+				"linearLowerLimit" : [0, 0, 0],
+				"linearUpperLimit" : [0.002, 0.002, 0.002],
+
+				"cfm" : 0.1,
+				"erp" : 0.1
+			}
+		},
+		// Ragdoll collider attach to what segment
+		"root" : { "limb" : "body_limb", "colliderIndex" : 0 }
+	},
+	"limbs" : {
+		"body_limb" : {
+			"bones" : ["jnt_spine2", "neck_jnt"],
+			"colliders" : ["body_collider"],
+			"joints" : ["spine_joint"]
+		 },
+		 "head_limb" : {
+		 	"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["head_jnt"],
+			"colliders" : ["head_collider"],
+			"joints" : ["head_joint"]
+		 },
+		"leftarm_limb" : {
+			"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["l_arm01_jnt","l_arm02_jnt"],
+			"colliders" : ["leg01_colliderActive"],
+			"joints" : ["leg01_Joint"]
+		 },
+		"rightarm_limb" : {
+			"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["r_arm01_jnt","r_arm04_jnt","scythe01_jnt","scythe03_jnt"],
+			"colliders" : ["leg01_colliderActive","leg01_collider","leg01_collider"],
+			"joints" : ["leg01_Joint","leg02_Joint","sythe_Joint"]
+		 },
+		 "leg01_limb" : {
+		 	"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["upperleg01_jnt", "leg01_jnt","legend01_jnt"],
+			"colliders" : ["leg01_colliderActive", "leg02_collider"],
+			"joints" : ["leg01_Joint","leg02_Joint"]
+		 },
+		 "leg02_limb" : {
+		 	"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["upperleg02_jnt", "leg02_jnt","legend02_jnt"],
+			"colliders" : ["leg01_colliderActive", "leg02_collider"],
+			"joints" : ["leg01_Joint","leg02_Joint"]
+		 },
+		 "leg03_limb" : {
+		 	"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["upperleg03_jnt", "leg03_jnt","legend03_jnt"],
+			"colliders" : ["leg01_colliderActive", "leg02_collider"],
+			"joints" : ["leg01_Joint","leg02_Joint"]
+		 },
+		 "leg04_limb" : {
+		 	"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["upperleg04_jnt", "leg04_jnt","legend04_jnt"],
+			"colliders" : ["leg01_colliderActive", "leg02_collider"],
+			"joints" : ["leg01_Joint","leg02_Joint"]
+		 },
+		 "leg05_limb" : {
+		 	"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["upperleg05_jnt", "leg05_jnt","legend05_jnt"],
+			"colliders" : ["leg01_colliderActive", "leg02_collider"],
+			"joints" : ["leg01_Joint","leg02_Joint"]
+		 },
+		 "leg06_limb" : {
+		 	"root" : { "limb" : "body_limb", "colliderIndex" : 0 },
+			"bones" : ["upperleg06_jnt", "leg06_jnt","legend06_jnt"],
+			"colliders" : ["leg01_colliderActive", "leg02_collider"],
+			"joints" : ["leg01_Joint","leg02_Joint"]
+		 }
+
+	}
+}
