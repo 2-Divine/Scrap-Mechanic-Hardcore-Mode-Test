@@ -220,7 +220,7 @@ local loot_totebot_green = {
 }
 
 local loot_haybot = {
-	slots = function() return randomStackAmount( 0, 0.75, 1 ) end,
+	slots = function() return randomStackAmount( 1, 1, 1 ) end,
 	randomLoot = {
 		{ uuid = jnt_bearing,					chance = 2 },
 		{ uuid = obj_consumable_glue,			chance = 2 },		
@@ -230,7 +230,7 @@ local loot_haybot = {
 }
 
 local loot_tapebot = {
-	slots = function() return randomStackAmount( 0, 0.75, 1 ) end,
+	slots = function() return randomStackAmount( 1, 1, 1 ) end,
 	randomLoot = {
 		{ uuid = obj_robotparts_tapebothead01,	chance = 1 },
 		{ uuid = obj_plantables_potato, 		chance = 2,		quantity = randomStackAmountAvg5 },
