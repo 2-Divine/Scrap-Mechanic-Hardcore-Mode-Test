@@ -1,0 +1,414 @@
+{
+	"partList": [
+		{
+			"uuid": "c3990931-b471-4e89-beb5-0baaef47f0af",
+			"name": "obj_containers_woodbox",
+			"legacyId": 606,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_woodbox_dif.tga",
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_woodbox_asg.tga",
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_woodbox_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_woodbox.fbx"
+					}
+				]
+			},
+			"color": "cb8d43",
+			"box": {
+				"x": 3,
+				"y": 2,
+				"z": 2
+			},
+			"chest": {
+				"slots": 5
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 4,
+				"durability": 2,
+				"friction": 6,
+				"buoyancy": 5
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "80550b05-f9eb-433c-9773-2af3beb1479d",
+			"name": "obj_containers_vegboxgreen",
+			"legacyId": 607,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_dif.tga",
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_asg.tga",
+									""
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_vegboxgreen.mesh"
+					}
+				]
+			},
+			"color": "7d9f2b",
+			"box": {
+				"x": 4,
+				"y": 2,
+				"z": 3
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 4,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "f0438bd7-6307-4991-943f-d78b04877d96",
+			"name": "obj_containers_vegboxcucumber",
+			"legacyId": 608,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_dif.tga",
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_asg.tga",
+									""
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_vegboxcucumber.mesh"
+					}
+				]
+			},
+			"color": "be4d22",
+			"box": {
+				"x": 4,
+				"y": 2,
+				"z": 3
+			},
+			"rotationSet": "StaticYZX",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 4,
+				"durability": 1,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "f6687d52-efc1-4f00-b573-bee4363ee14f",
+			"name": "obj_containers_vegboxcarrot",
+			"legacyId": 609,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_dif.tga",
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_asg.tga",
+									""
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_vegboxcarrot.mesh"
+					}
+				]
+			},
+			"color": "62cedc",
+			"box": {
+				"x": 4,
+				"y": 3,
+				"z": 3
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 4,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "18a38c8e-18ec-46c5-be00-cee7724401e2",
+			"name": "obj_containers_vegboxbanana",
+			"legacyId": 610,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_dif.tga",
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_asg.tga",
+									""
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_vegboxbanana.mesh"
+					}
+				]
+			},
+			"color": "83a633",
+			"box": {
+				"x": 4,
+				"y": 3,
+				"z": 3
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 4,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "8b684022-254b-41af-a58c-ec4b14791000",
+			"name": "obj_containers_vegboxblue",
+			"legacyId": 611,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_dif.tga",
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_asg.tga",
+									""
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_vegboxblue.mesh"
+					}
+				]
+			},
+			"color": "84dfd2",
+			"box": {
+				"x": 4,
+				"y": 4,
+				"z": 4
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 4,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "de467c9b-a0ab-4e20-95ae-0e5fe8140989",
+			"name": "obj_containers_vegboxonion",
+			"legacyId": 612,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_dif.tga",
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_asg.tga",
+									""
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_vegboxonion.mesh"
+					}
+				]
+			},
+			"color": "bc8543",
+			"box": {
+				"x": 6,
+				"y": 4,
+				"z": 4
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 4,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "7ece2c9b-bc74-45b7-b5f1-4c6f41a03a7a",
+			"name": "obj_containers_vegboxbeetroot",
+			"legacyId": 613,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_dif.tga",
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_asg.tga",
+									""
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_vegboxbeetroot.mesh"
+					}
+				]
+			},
+			"color": "c57246",
+			"box": {
+				"x": 6,
+				"y": 4,
+				"z": 4
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 4,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "8bcc5a38-b566-45fe-b47e-45118ee70d2d",
+			"name": "obj_containers_vegboxorange",
+			"legacyId": 614,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_dif.tga",
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_asg.tga",
+									""
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_vegboxorange.mesh"
+					}
+				]
+			},
+			"color": "f59d39",
+			"box": {
+				"x": 6,
+				"y": 6,
+				"z": 6
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 4,
+				"durability": 1,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "faae6e1a-f431-49fd-b8b8-16f12139ee88",
+			"name": "obj_containers_plantcontainerclosed",
+			"legacyId": 615,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_plantcontainer_dif.tga",
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_plantcontainer_asg.tga",
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_plantcontainer_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_plantcontainerclosed.mesh"
+					}
+				]
+			},
+			"color": "73adb7",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 2
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 4,
+				"durability": 1,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "102565a0-c864-463e-b517-72e82242eec2",
+			"name": "obj_containers_plantcontaineropen",
+			"legacyId": 616,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_plantcontainer_dif.tga",
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_plantcontainer_asg.tga",
+									"$GAME_DATA/Objects/Textures/containers/obj_containers_plantcontainer_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_plantcontaineropen.mesh"
+					}
+				]
+			},
+			"color": "73adb7",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 2
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 4,
+				"durability": 1,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": true
+		}
+	]
+}
