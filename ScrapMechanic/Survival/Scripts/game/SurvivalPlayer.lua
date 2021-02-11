@@ -28,7 +28,7 @@ local CarryStaminaCost = 1.4 / 40 -- Per tick while carrying
 local FoodLostPerSecond = 100 / 3.5 / 24 / 60 --
 local WaterLostPerSecond = 100 / 2.5 / 24 / 60
 
-local BreathLostPerTick = ( 170 / 60 ) / 40
+local BreathLostPerTick = ( 100 / 60 ) / 40
 
 local FatigueDamageHp = 1 * PerSecond
 local FatigueDamageWater = 2 * PerSecond
