@@ -20,6 +20,7 @@
 				"friction": 5,
 				"buoyancy": 3
 			},
+			"itemStack": {},
 			"flammable": true,
 			"stackSize": 20
 		},
@@ -42,6 +43,7 @@
 				"friction": 6,
 				"buoyancy": 3
 			},
+			"itemStack": {},
 			"flammable": true,
 			"stackSize": 20
 		},
@@ -65,8 +67,9 @@
 				"friction": 4,
 				"buoyancy": 3
 			},
+			"itemStack": {},
 			"flammable": false,
-			"stackSize": 10
+			"stackSize": 20
 		},
 		{
 			"uuid": "3440440b-d362-4473-aa03-b7c41e1fe7ad",
@@ -136,6 +139,7 @@
 				"friction": 6,
 				"buoyancy": 3
 			},
+			"itemStack": {},
 			"flammable": false,
 			"stackSize": 20
 		},
@@ -159,6 +163,7 @@
 				"friction": 6,
 				"buoyancy": 3
 			},
+			"itemStack": {},
 			"flammable": true,
 			"stackSize": 10
 		},
@@ -182,8 +187,9 @@
 				"friction": 4,
 				"buoyancy": 3
 			},
+			"itemStack": {},
 			"flammable": true,
-			"stackSize": 10
+			"stackSize": 20
 		},
 		{
 			"uuid": "c9396a42-67c3-4fa3-b682-31428ff9eced",
@@ -228,8 +234,9 @@
 				"friction": 4,
 				"buoyancy": 3
 			},
+			"itemStack": {},
 			"flammable": true,
-			"stackSize": 10
+			"stackSize": 20
 		},
 		{
 			"uuid": "1147e59d-6940-42b4-840b-07f05054f5e0",
