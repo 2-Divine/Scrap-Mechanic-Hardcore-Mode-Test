@@ -138,7 +138,7 @@ function BaseWorld.server_onCellLoaded( self, x, y )
 		if fn then
 			stacked.shape.stackedAmount = fn()
 		else
-			stacked.shape.stackedAmount = randomStackAmountAvg2()
+			stacked.shape.stackedAmount = randomStackAmountAvg3()
 		end
 	end
 	end
