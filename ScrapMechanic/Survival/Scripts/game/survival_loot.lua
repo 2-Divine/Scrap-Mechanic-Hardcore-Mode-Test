@@ -135,7 +135,7 @@ local loot_crate_epic = {
 local loot_crate_epic_warehouse = {
 	slots = function() return 3 end,
 	selectOne = {
-		{ uuid = obj_interactive_comfybed, 			chance = 1 },
+		{ uuid = obj_consumable_component,		chance = 1 },
 	},
 	randomLoot = random_warehouseloot
 }
