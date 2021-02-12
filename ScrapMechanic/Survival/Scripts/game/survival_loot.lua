@@ -91,13 +91,13 @@ local random_warehouseloot = {
 
 local random_loot_startarea = {
 	{ uuid = obj_scrap_smallwheel,			chance = 10 },
-	{ uuid = obj_consumable_gas,			chance = 25,	quantity = randomStackAmountAvg2 },
+	{ uuid = obj_consumable_gas,			chance = 25,	quantity = randomStackAmountAvg5 },
 	{ uuid = obj_consumable_chemical,		chance = 15,	quantity = randomStackAmountAvg2 },
 	{ uuid = obj_consumable_water,			chance = 20,	quantity = randomStackAmountAvg2 },
 	{ uuid = obj_consumable_fertilizer,		chance = 10,	quantity = randomStackAmountAvg2 },
-	{ uuid = obj_plantables_carrot,			chance = 5,		quantity = 1 },
-	{ uuid = obj_plantables_redbeet,		chance = 5,		quantity = 1 },
-	{ uuid = obj_plantables_tomato,			chance = 5,		quantity = 1 },
+	{ uuid = obj_plantables_carrot,			chance = 10,		quantity = randomStackAmountAvg2 },
+	{ uuid = obj_plantables_redbeet,		chance = 10,		quantity = randomStackAmountAvg2 },
+	{ uuid = obj_plantables_tomato,			chance = 10,		quantity = randomStackAmountAvg2 },
 	{ uuid = obj_consumable_sunshake, 		chance = 5 },
 	{ uuid = blk_scrapwood,					chance = 25,	quantity = randomStackAmountAvg10 },
 	{ uuid = blk_metalbricks,				chance = 40,	quantity = randomStackAmountAvg10 },
@@ -182,11 +182,11 @@ local loot_ruinchest = {
 }
 
 local loot_ruinchest_startarea = {
-	slots = function() return randomStackAmount( 1, 1.5, 4 ) end,
+	slots = function() return randomStackAmount( 2, 4, 6 ) end,
 	selectOne = {
-		{ uuid = obj_plantables_carrot,			chance = 3,	quantity = randomStackAmountAvg2 },
-		{ uuid = obj_plantables_redbeet,		chance = 2,	quantity = randomStackAmountAvg2 },
-		{ uuid = obj_plantables_tomato,			chance = 1,	quantity = randomStackAmountAvg2 },
+		{ uuid = obj_plantables_carrot,			chance = 3,	quantity = randomStackAmountAvg3 },
+		{ uuid = obj_plantables_redbeet,		chance = 2,	quantity = randomStackAmountAvg3 },
+		{ uuid = obj_plantables_tomato,			chance = 1,	quantity = randomStackAmountAvg3 },
 	},	
 	randomLoot = random_loot_startarea
 }
