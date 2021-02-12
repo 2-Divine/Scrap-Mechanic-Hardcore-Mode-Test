@@ -120,7 +120,7 @@ function TapebotUnit.server_onCreate( self )
 		self.rangedAttack.aimTime = 0.1
 	end
 	self.rangedAttack.event = "shoot"
-	self.rangedAttack.damage = 55
+	self.rangedAttack.damage = 20
 	self.rangedAttack.fakeOffset = sm.vec3.new( 0.5, 0.5, -0.25 )
 	self.rangedAttack.velocity = 40
 	
