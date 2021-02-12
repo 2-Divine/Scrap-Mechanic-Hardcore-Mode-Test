@@ -48,7 +48,7 @@ local function SeedSpawnFunction( cell, nodes )
 	for _, node in ipairs( nodes ) do
 		local uid = SeedSpawnUuids[math.random( 1, #SeedSpawnUuids )] -- Randomize a seed
 		local part = sm.shape.createPart( uid, node.position, node.rotation, false, false ) -- static, ignore if collides
-		part.stackedAmount = randomStackAmountAvg2()
+		part.stackedAmount = randomStackAmountAvg3()
 	end
 
 end
