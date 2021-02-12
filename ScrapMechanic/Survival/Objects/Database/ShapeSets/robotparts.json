@@ -1,0 +1,770 @@
+{
+	"partList": [
+		{
+			"uuid": "1e89879f-1171-4bcd-9465-db7f740ab09e",
+			"name": "obj_robotparts_tapebothead01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"tapebot_body": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_nor.tga"
+								]
+							},
+							"tapebot_head": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head01_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head02_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head02_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/robotparts/obj_robotparts_tapebothead01.fbx"
+					}
+				]
+			},
+			"color": "035cff",
+			"hull": {
+				"x": 2,
+				"y": 3,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_robotparts_tapebothead01.obj"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": false,
+			"itemStack": {},
+			"stackSize": 10,
+			"restrictions": {
+				"erasable": true
+			}
+		},
+		{
+			"uuid": "50380984-9ad6-4092-88e9-5a84b8212899",
+			"name": "obj_robotparts_tapebottorso01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"tapebot_body": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_nor.tga"
+								]
+							},
+							"tapebot_head": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head01_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head02_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head02_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/robotparts/obj_robotparts_tapebottorso01.fbx"
+					}
+				]
+			},
+			"color": "035cff",
+			"hull": {
+				"x": 3,
+				"y": 3,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_robotparts_tapebottorso01.obj"
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/interactables/Junk.lua",
+				"classname": "Junk",
+				"data": {
+					"minExist": 4,
+					"maxExist": 8,
+					"type": "junk"
+				}
+			},
+			"rotationSet": "PropXmm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"buildable": false,
+				"paintable": false,
+				"connectable": false,
+				"liftable": false,
+				"erasable": false
+			}
+		},
+		{
+			"uuid": "7faccb34-95df-4f3d-9250-054bb04b2719",
+			"name": "obj_robotparts_tapebotleftarm01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"tapebot_body": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/robotparts/obj_robotparts_tapebotleftarm01.fbx"
+					}
+				]
+			},
+			"color": "035cff",
+			"hull": {
+				"x": 3,
+				"y": 3,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_robotparts_tapebotleftarm01.obj"
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/interactables/Junk.lua",
+				"classname": "Junk",
+				"data": {
+					"minExist": 4,
+					"maxExist": 8,
+					"type": "junk"
+				}
+			},
+			"rotationSet": "PropXmm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"buildable": false,
+				"paintable": false,
+				"connectable": false,
+				"liftable": false,
+				"erasable": false
+			}
+		},
+		{
+			"uuid": "f293a245-2415-4da5-b012-01134652611f",
+			"name": "obj_robotparts_tapebotshooter",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"tapebot_body": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/robotparts/obj_robotparts_tapebotshooter.fbx"
+					}
+				]
+			},
+			"color": "035cff",
+			"hull": {
+				"x": 1,
+				"y": 3,
+				"z": 3,
+				"margin": 0.25,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_robotparts_tapebotshooter.obj"
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/interactables/Junk.lua",
+				"classname": "Junk",
+				"data": {
+					"minExist": 4,
+					"maxExist": 8,
+					"type": "shooter"
+				}
+			},
+			"rotationSet": "PropXmm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": false,
+			"restitution": 0.75,
+			"restrictions": {
+				"destructable": false,
+				"buildable": false,
+				"paintable": false,
+				"connectable": false,
+				"liftable": false,
+				"erasable": false
+			}
+		},
+		{
+			"uuid": "e9b6ef48-2a41-4db2-b8bc-5fd3f179b04e",
+			"name": "obj_robotparts_haybothead",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"haybot": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_nor.tga"
+								]
+							},
+							"hay": {
+								"material": "DifAsgNorAlphaFlip",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/robotparts/obj_robotparts_haybothead.fbx"
+					}
+				]
+			},
+			"color": "035cff",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 1
+			},
+			"rotationSet": "PropFull",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": false,
+			"itemStack": {},
+			"stackSize": 10,
+			"restrictions": {
+				"erasable": true
+			}
+		},
+		{
+			"uuid": "4617f9a6-8724-43ee-97e2-20904fd660ab",
+			"name": "obj_robotparts_haybotbody",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"haybot": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_nor.tga"
+								]
+							},
+							"hay": {
+								"material": "DifAsgNorAlphaFlip",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/robotparts/obj_robotparts_haybotbody.fbx"
+					}
+				]
+			},
+			"color": "035cff",
+			"box": {
+				"x": 2,
+				"y": 3,
+				"z": 2
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/interactables/Junk.lua",
+				"classname": "Junk",
+				"data": {
+					"minExist": 4,
+					"maxExist": 8,
+					"type": "junk"
+				}
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"buildable": false,
+				"paintable": false,
+				"connectable": false,
+				"liftable": false,
+				"erasable": false
+			}
+		},
+		{
+			"uuid": "6e480a17-57f1-4c06-9313-9b1c80e1be05",
+			"name": "obj_robotparts_haybotpelvis",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"haybot": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_nor.tga"
+								]
+							},
+							"hay": {
+								"material": "DifAsgNorAlphaFlip",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/robotparts/obj_robotparts_haybotpelvis.fbx"
+					}
+				]
+			},
+			"color": "035cff",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 2
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/interactables/Junk.lua",
+				"classname": "Junk",
+				"data": {
+					"minExist": 4,
+					"maxExist": 8,
+					"type": "junk"
+				}
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"buildable": false,
+				"paintable": false,
+				"connectable": false,
+				"liftable": false,
+				"erasable": false
+			}
+		},
+		{
+			"uuid": "7085387b-a2ce-4ef5-be67-b67501754b9e",
+			"name": "obj_robotparts_haybotfork",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"haybot": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_nor.tga"
+								]
+							},
+							"hay": {
+								"material": "DifAsgNorAlphaFlip",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/decor/obj_decor_haybale_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/robotparts/obj_robotparts_haybotfork.fbx"
+					}
+				]
+			},
+			"color": "035cff",
+			"box": {
+				"x": 2,
+				"y": 7,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/interactables/Junk.lua",
+				"classname": "Junk",
+				"data": {
+					"minExist": 4,
+					"maxExist": 8,
+					"type": "junk"
+				}
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"buildable": false,
+				"paintable": false,
+				"connectable": false,
+				"liftable": false,
+				"erasable": false
+			}
+		},
+		{
+			"uuid": "7b4d4f21-9164-4d55-854f-670afd54f1cc",
+			"name": "obj_robotparts_farmbotpart_head",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"farmbot": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/robotparts/obj_robotparts_farmbotpart_head.fbx"
+					}
+				]
+			},
+			"color": "035cff",
+			"box": {
+				"x": 3,
+				"y": 3,
+				"z": 2
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": false,
+			"itemStack": {},
+			"stackSize": 10,
+			"restrictions": {
+				"erasable": true
+			}
+		},
+		{
+			"uuid": "79b93e3a-79fd-4a1e-88cb-1eda65d3535f",
+			"name": "obj_robotparts_farmbotpart_cannonarm",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"farmbot": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/robotparts/obj_robotparts_farmbotpart_cannonarm.fbx"
+					}
+				]
+			},
+			"color": "035cff",
+			"hull": {
+				"x": 7,
+				"y": 6,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_robotparts_farmbotpart_cannonarm.obj"
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/interactables/Junk.lua",
+				"classname": "Junk",
+				"data": {
+					"minExist": 4,
+					"maxExist": 8,
+					"type": "junk"
+				}
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"buildable": false,
+				"paintable": false,
+				"connectable": false,
+				"liftable": false,
+				"erasable": false
+			}
+		},
+		{
+			"uuid": "369b43d3-4ed3-464d-82e8-c9aa11251afc",
+			"name": "obj_robotparts_farmbotpart_drill",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"farmbot": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/robotparts/obj_robotparts_farmbotpart_drill.fbx"
+					}
+				]
+			},
+			"color": "035cff",
+			"hull": {
+				"x": 2,
+				"y": 13,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_robotparts_farmbotpart_drill.obj"
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/interactables/Junk.lua",
+				"classname": "Junk",
+				"data": {
+					"minExist": 4,
+					"maxExist": 8,
+					"type": "junk"
+				}
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"buildable": false,
+				"paintable": false,
+				"connectable": false,
+				"liftable": false,
+				"erasable": false
+			}
+		},
+		{
+			"uuid": "5de17a8f-f447-4204-886e-6ba015347f89",
+			"name": "obj_robotparts_farmbotpart_scytharm",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"farmbot": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/robotparts/obj_robotparts_farmbotpart_scytharm.fbx"
+					}
+				]
+			},
+			"color": "035cff",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_robotparts_farmbotpart_scytharm.obj"
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/interactables/Junk.lua",
+				"classname": "Junk",
+				"data": {
+					"minExist": 4,
+					"maxExist": 8,
+					"type": "junk"
+				}
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"buildable": false,
+				"paintable": false,
+				"connectable": false,
+				"liftable": false,
+				"erasable": false
+			}
+		},
+		{
+			"uuid": "b9b4f8ef-9d30-4662-8696-d27a2ba0a7fa",
+			"name": "obj_robotpart_totebotbody",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"totebot": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/robotparts/obj_robotpart_totebot_body_01.fbx"
+					}
+				]
+			},
+			"color": "035cff",
+			"hull": {
+				"x": 2,
+				"y": 2,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_robotpart_totebotbody.obj"
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/interactables/Junk.lua",
+				"classname": "Junk",
+				"data": {
+					"minExist": 4,
+					"maxExist": 8,
+					"type": "junk"
+				}
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"buildable": false,
+				"paintable": false,
+				"connectable": false,
+				"liftable": false,
+				"erasable": false
+			}
+		},
+		{
+			"uuid": "243afe95-8058-47b0-bccf-49cc0445cd55",
+			"name": "obj_robotpart_totebotleg",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"totebot": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Totebot/char_totebot_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/robotparts/obj_robotpart_totebot_leg01.fbx"
+					}
+				]
+			},
+			"color": "035cff",
+			"hull": {
+				"x": 1,
+				"y": 2,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_robotpart_totebotleg.obj"
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/interactables/Junk.lua",
+				"classname": "Junk",
+				"data": {
+					"minExist": 4,
+					"maxExist": 8,
+					"type": "junk"
+				}
+			},
+			"rotationSet": "PropY",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 4
+			},
+			"flammable": false,
+			"restrictions": {
+				"destructable": false,
+				"buildable": false,
+				"paintable": false,
+				"connectable": false,
+				"liftable": false,
+				"erasable": false
+			}
+		}
+	]
+}
