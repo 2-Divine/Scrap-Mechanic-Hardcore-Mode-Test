@@ -223,19 +223,17 @@ local loot_haybot = {
 	slots = function() return randomStackAmount( 1, 1, 1 ) end,
 	randomLoot = {
 		{ uuid = jnt_bearing,					chance = 2 },
-		{ uuid = obj_consumable_glue,			chance = 2 },		
+		{ uuid = obj_consumable_glue,			chance = 3 },		
 		{ uuid = obj_consumable_component,		chance = 10 },
-		{ uuid = obj_robotparts_haybothead,		chance = 1 },
 	}
 }
 
 local loot_tapebot = {
 	slots = function() return randomStackAmount( 1, 1, 1 ) end,
 	randomLoot = {
-		{ uuid = obj_robotparts_tapebothead01,	chance = 1 },
 		{ uuid = obj_plantables_potato, 		chance = 2,		quantity = randomStackAmountAvg5 },
 		{ uuid = obj_consumable_component,		chance = 10, 	quantity = randomStackAmountAvg2 },
-		{ uuid = obj_consumable_battery,		chance = 2 },
+		{ uuid = obj_consumable_battery,		chance = 3 },
 	}
 }
 
@@ -245,8 +243,7 @@ local loot_farmbot = {
 		{ uuid = obj_survivalobject_keycard,		chance = 1 },
 	},
 	randomLoot = {
-		{ uuid = obj_consumable_component,			chance = 9,	quantity = randomStackAmountAvg10 },
-		{ uuid = obj_robotparts_farmbotpart_head,	chance = 1 },
+		{ uuid = obj_consumable_component,			chance = 1,	quantity = randomStackAmountAvg10 },
 	}
 }
 
