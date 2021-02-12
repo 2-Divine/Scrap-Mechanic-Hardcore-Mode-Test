@@ -21,7 +21,7 @@ local FastFoodCostPerHpRecovery = 0.3
 
 local FoodCostPerStamina = 0.02
 local WaterCostPerStamina = 0.1
-local BlockingStaminaCost = 1.0 / 40 
+--local BlockingStaminaCost = 1.0 / 40 
 local SprintStaminaCost = 0.7 / 40 -- Per tick while sprinting
 local CarryStaminaCost = 1.4 / 40 -- Per tick while carrying
 
@@ -380,9 +380,9 @@ function SurvivalPlayer.server_onFixedUpdate( self, dt )
 			self.sv.staminaSpend = self.sv.staminaSpend + SprintStaminaCost
 		end
 		
-		if self.sv.blocking == true then
-			self.sv.staminaSpend = self.sv.staminaSpend + BlockingStaminaCost
-		end
+		--if self.sv.blocking == true then
+		--	self.sv.staminaSpend = self.sv.staminaSpend + BlockingStaminaCost
+		--end
 		
 		-- Spend stamina on carrying
 		if not self.player:getCarry():isEmpty() then
@@ -488,7 +488,7 @@ function SurvivalPlayer.server_onMelee( self, hitPos, attacker, damage, power )
 		local attackDirection = ( hitPos - attackingCharacter.worldPosition ):normalize()
 		local directionDiff = ( attackDirection - playerCharacter:getDirection() ):length()
 		local directionDiffThreshold = 1.6
-		local blockeddamage = ( damage * 0.25 )
+		local blockeddamage = ( damage * 0.15 )
 		if directionDiff >= directionDiffThreshold and self.sv.blocking == true  then
 			print("'SurvivalPlayer' blocked some melee damage")
 			sm.effect.playEffect( "SledgehammerHit - Default", playerCharacter.worldPosition + sm.vec3.new( 0, 0, 0.5 ) - ( attackDirection - playerCharacter:getDirection() ) * 0.25 )
