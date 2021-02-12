@@ -4,7 +4,7 @@ dofile("$SURVIVAL_DATA/Scripts/game/survival_units.lua")
 HarvestCore = class( nil )
 HarvestCore.resetStateOnInteract = false
 
-local RefineStaminaCost = 15
+local RefineStaminaCost = 10
 
 function HarvestCore.server_onCreate( self )
 	self:sv_init()
@@ -45,7 +45,7 @@ end
 
 function HarvestCore.cl_init( self ) 
 	self.client_refining = false
-	self.client_refineTime = 9.0
+	self.client_refineTime = 8.0
 	self.client_refineElapsed = 0.0
 	
 	self.client_effect = sm.effect.createEffect( "Harvestable - Marker", self.interactable )
