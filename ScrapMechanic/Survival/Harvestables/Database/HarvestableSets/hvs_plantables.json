@@ -59,7 +59,7 @@
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "80cd6e60-154f-46da-8f26-ff30f2961fa2", //hvs_mature_banana
-					"daysToGrow": 2.75
+					"daysToGrow": 1.75
 				}
 			}
 		},
@@ -107,7 +107,7 @@
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "9b031ec3-bc91-47b9-93fb-df79a8ef3026", //hvs_mature_blueberry
-					"daysToGrow": 2.75
+					"daysToGrow": 1.75
 				}
 			}
 		},
@@ -155,7 +155,7 @@
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "133ae17a-c038-4a55-ab79-f40f6840ab2b", //hvs_mature_orange
-					"daysToGrow": 2.75
+					"daysToGrow": 1.75
 				}
 			}
 		},
@@ -203,7 +203,7 @@
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "2cedbc23-92c5-4fba-8a08-ecbae23a28e5", //hvs_mature_pineapple
-					"daysToGrow": 2.75
+					"daysToGrow": 1.75
 				}
 			}
 		},
@@ -251,7 +251,7 @@
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "18990ae9-62d1-41f7-aab9-5199b31e3e89", //hvs_mature_carrot
-					"daysToGrow": 2.75
+					"daysToGrow": 1.75
 				}
 			}
 		},
@@ -299,7 +299,7 @@
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "1a167796-8162-4990-97a7-b3810b3f94ca", //hvs_mature_redbeet
-					"daysToGrow": 2.75
+					"daysToGrow": 1.75
 				}
 			}
 		},
@@ -347,7 +347,7 @@
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "534b13a0-3ec1-4558-a77a-cfccf6c3cb3e", //hvs_mature_tomato
-					"daysToGrow": 2.75
+					"daysToGrow": 1.75
 				}
 			}
 		},
@@ -395,7 +395,7 @@
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "b166b142-792a-4c8f-9d06-f277dab6dba6", //hvs_mature_broccoli
-					"daysToGrow": 2.75
+					"daysToGrow": 1.75
 				}
 			}
 		},
@@ -443,7 +443,7 @@
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "c42ad18d-797b-4196-ab79-86e222d8f767", //hvs_mature_potato
-					"daysToGrow": 2.75
+					"daysToGrow": 1.75
 				}
 			}
 		},
@@ -491,7 +491,7 @@
 				"class": "GrowingHarvestable",
 				"data": {
 					"harvestable": "4d923a91-0c98-40f9-ae3f-ef386362ab1c", //hvs_mature_cotton
-					"daysToGrow": 2.75
+					"daysToGrow": 1.75
 				}
 			}
 		},
