@@ -9,7 +9,7 @@ dofile "$SURVIVAL_DATA/Scripts/game/survival_constants.lua"
 TapebotUnit = class( nil )
 
 local AllyRange = 20.0
-local SuppressionFireTickTime = 8 * 40
+local SuppressionFireTickTime = 4 * 40
 local RandomRaidFireTickIntervalMin = 0 * 40
 local RandomRaidFireTickIntervalMax = 2 * 40
 local HearRange = 40.0
