@@ -118,7 +118,7 @@ function HaybotUnit.server_onCreate( self )
 	self.attackState01 = self.unit:createState( "meleeAttack" )
 	self.attackState01.meleeType = "HaybotPitchforkSwipe"
 	self.attackState01.event = "attack01"
-	self.attackState01.damage = 30
+	self.attackState01.damage = 20
 	self.attackState01.attackRange = 1.75
 	self.attackState01.animationCooldown = 1.65 * 40
 	self.attackState01.attackCooldown = 0.25 * 40
@@ -128,7 +128,7 @@ function HaybotUnit.server_onCreate( self )
 	self.attackState02 = self.unit:createState( "meleeAttack" )
 	self.attackState02.meleeType = "HaybotPitchfork"
 	self.attackState02.event = "attack02"
-	self.attackState02.damage = 20
+	self.attackState02.damage = 15
 	self.attackState02.attackRange = 1.75
 	self.attackState02.animationCooldown = 0.825 * 40
 	self.attackState02.attackCooldown = 2.0 * 40
@@ -138,7 +138,7 @@ function HaybotUnit.server_onCreate( self )
 	self.attackState03 = self.unit:createState( "meleeAttack" )
 	self.attackState03.meleeType = "HaybotPitchfork"
 	self.attackState03.event = "attack03"
-	self.attackState03.damage = 20
+	self.attackState03.damage = 15
 	self.attackState03.attackRange = 1.75
 	self.attackState03.animationCooldown = 0.925 * 40
 	self.attackState03.attackCooldown = 2.0 * 40
@@ -148,7 +148,7 @@ function HaybotUnit.server_onCreate( self )
 	self.attackStateSprint01 = self.unit:createState( "meleeAttack" )
 	self.attackStateSprint01.meleeType = "HaybotPitchfork"
 	self.attackStateSprint01.event = "sprintattack01"
-	self.attackStateSprint01.damage = 20
+	self.attackStateSprint01.damage = 15
 	self.attackStateSprint01.attackRange = 1.75
 	self.attackStateSprint01.animationCooldown = 0.8 * 40
 	self.attackStateSprint01.attackCooldown = 3.0 * 40
@@ -958,7 +958,7 @@ function HaybotUnit.sv_spawnParts( self, impact )
 	local bodyOffset = bodyRot * sm.vec3.new( -0.25, 0.25, 0.375 )
 	bodyPos = bodyPos - bodyOffset
 
-	if math.random( 1, 10 ) == 1 then
+	if math.random( 1, 8 ) == 1 then
 	local headBody = sm.body.createBody( bodyPos, bodyRot, true )
 	local headShape = headBody:createPart( obj_robotparts_haybothead, sm.vec3.new( 0, 1, 3 ), sm.vec3.new( 0, 1, 0 ), sm.vec3.new( -1, 0, 0 ), true )
 	end
