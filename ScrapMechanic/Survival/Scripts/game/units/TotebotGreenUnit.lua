@@ -121,10 +121,10 @@ function TotebotGreenUnit.server_onCreate( self )
 	self.attackState01 = self.unit:createState( "meleeAttack" )
 	self.attackState01.meleeType = "ToteBotAttack"
 	self.attackState01.event = "melee"
-	self.attackState01.damage = 15
-	self.attackState01.attackRange = 1.15
+	self.attackState01.damage = 10
+	self.attackState01.attackRange = 1.45
 	self.attackState01.animationCooldown = 0.825 * 40
-	self.attackState01.attackCooldown = 1.0 * 40
+	self.attackState01.attackCooldown = 0.50 * 40
 	self.attackState01.globalCooldown = 0.0 * 40
 	self.attackState01.attackDelay = 0.25 * 40
 	self.attackState01.power = 3750.0
