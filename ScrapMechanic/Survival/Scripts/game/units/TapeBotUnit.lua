@@ -116,7 +116,7 @@ function TapebotUnit.server_onCreate( self )
 		self.rangedAttack.aimTime = 0.25
 	else
 		self.rangedAttack.projectile = "tape"
-		self.rangedAttack.cooldown = 0.95
+		self.rangedAttack.cooldown = 1.90
 		self.rangedAttack.aimTime = 0.1
 	end
 	self.rangedAttack.event = "shoot"
