@@ -128,7 +128,7 @@ function FarmbotUnit.server_onCreate( self )
 	self.attackState01 = self.unit:createState( "meleeAttack" )
 	self.attackState01.meleeType = "FarmbotSwipe"
 	self.attackState01.event = "kick"
-	self.attackState01.damage = 10
+	self.attackState01.damage = 25
 	self.attackState01.attackRange = 2.7
 	self.attackState01.animationCooldown = 1.0 * 40
 	self.attackState01.attackCooldown = 6.0 * 40
@@ -139,7 +139,7 @@ function FarmbotUnit.server_onCreate( self )
 	self.attackState02 = self.unit:createState( "meleeAttack" )
 	self.attackState02.meleeType = "FarmbotSwipe"
 	self.attackState02.event = "walkingswipe"
-	self.attackState02.damage = 35
+	self.attackState02.damage = 55
 	self.attackState02.attackRange = 3.75
 	self.attackState02.animationCooldown = 1.86 * 40
 	self.attackState02.attackCooldown = 3.0 * 40
@@ -149,7 +149,7 @@ function FarmbotUnit.server_onCreate( self )
 	self.attackState03 = self.unit:createState( "meleeAttack" )
 	self.attackState03.meleeType = "FarmbotSwipe"
 	self.attackState03.event = "standingswipe"
-	self.attackState03.damage = 35
+	self.attackState03.damage = 55
 	self.attackState03.attackRange = 3.75
 	self.attackState03.animationCooldown = 1.86 * 40
 	self.attackState03.attackCooldown = 1.75 * 40
@@ -159,7 +159,7 @@ function FarmbotUnit.server_onCreate( self )
 	self.attackPartState = self.unit:createState( "meleeAttack" )
 	self.attackPartState.meleeType = "FarmbotBreach"
 	self.attackPartState.event = "breachattack"
-	self.attackPartState.damage = 60
+	self.attackPartState.damage = 55
 	self.attackPartState.attackRange = 3.75
 	self.attackPartState.animationCooldown = 3.66 * 40
 	self.attackPartState.attackCooldown = 4.5 * 40
@@ -169,7 +169,7 @@ function FarmbotUnit.server_onCreate( self )
 	self.attackState05 = self.unit:createState( "meleeAttack" )
 	self.attackState05.meleeType = "FarmbotSwipe"
 	self.attackState05.event = "runningswipe"
-	self.attackState05.damage = 35
+	self.attackState05.damage = 55
 	self.attackState05.attackRange = 3.75
 	self.attackState05.animationCooldown = 1.86 * 40
 	self.attackState05.attackCooldown = 8.0 * 40
