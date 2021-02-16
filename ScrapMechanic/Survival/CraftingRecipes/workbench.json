@@ -89,7 +89,7 @@
 		"craftTime": 2,
 		"ingredientList": [
 			{
-				"quantity": 5, //blk_scrapwood
+				"quantity": 10, //blk_scrapwood
 				"itemId": "1fc74a28-addb-451a-878d-c3c605d63811"
 			},
 			{
