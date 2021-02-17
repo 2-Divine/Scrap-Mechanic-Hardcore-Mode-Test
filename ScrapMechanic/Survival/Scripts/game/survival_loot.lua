@@ -132,8 +132,8 @@ local loot_crate_epic = {
 
 		{ uuid = obj_consumable_component, 			chance = 50,	quantity = randomStackAmountAvg3 },
 
-		{ uuid = jnt_suspensionoffroad_01, 			chance = 20 },
-		{ uuid = jnt_suspensionsport_01, 			chance = 10 },
+		{ uuid = jnt_suspensionoffroad_01, 			chance = 10 },
+		{ uuid = jnt_suspensionsport_01, 			chance = 20 },
 		{ uuid = jnt_interactive_piston_01, 			chance = 20 },
 		{ uuid = obj_interactive_switch, 			chance = 10 },
 		{ uuid = obj_interactive_button, 			chance = 20 },
