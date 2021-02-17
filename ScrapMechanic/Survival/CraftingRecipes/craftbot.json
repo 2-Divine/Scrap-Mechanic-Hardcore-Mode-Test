@@ -1894,7 +1894,7 @@
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 10, //obj_seed_potato 
+				"quantity": 8, //obj_seed_potato 
 				"itemId": "eb1ef696-5c05-4662-9e47-fe1e0875ff84"
 			}
 		]
@@ -1905,7 +1905,7 @@
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 8, //obj_seed_banana 
+				"quantity": 5, //obj_seed_banana 
 				"itemId": "22beade5-38ca-47b4-a2ee-32403f58a862"
 			}
 		]
@@ -1916,7 +1916,7 @@
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 8, //obj_seed_orange 
+				"quantity": 5, //obj_seed_orange 
 				"itemId": "bee966b0-b5e5-41da-b992-5d363ab85ae4"
 			}
 		]
@@ -1927,7 +1927,7 @@
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 8, //obj_seed_blueberry  
+				"quantity": 5, //obj_seed_blueberry  
 				"itemId": "4b6d2bee-d0f1-4e56-96f0-d2596388cad2"
 			}
 		]
@@ -1949,7 +1949,7 @@
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 5, //obj_seed_pineapple   
+				"quantity": 3, //obj_seed_pineapple   
 				"itemId": "9edb6f7c-fb44-4348-a1c4-8afb41b92d8a"
 			}
 		]
@@ -1960,7 +1960,7 @@
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 5, //obj_seed_broccoli  
+				"quantity": 3, //obj_seed_broccoli  
 				"itemId": "1c6756ca-3a60-4dcb-a5d1-353edf818308"
 			}
 		]
