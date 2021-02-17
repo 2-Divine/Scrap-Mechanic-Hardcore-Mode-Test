@@ -1,21 +1,6 @@
 // this file is generated
 [
 	{
-		"itemId": "a6ec1dcc-07e9-418a-819e-904e28a32f63", //obj_decor_mug
-		"quantity": 1,
-		"craftTime": 2,
-		"ingredientList": [
-			{
-				"quantity": 1000, //blk_metal3
-				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
-			},
-			{
-				"quantity": 27, //obj_survivalobject_keycard
-				"itemId": "e49b210a-0d46-4f06-bcd8-08862379d156"
-			}
-		]
-	},
-	{
 		"itemId": "8c7efc37-cd7c-4262-976e-39585f8527bf", //tool_connect 
 		"quantity": 1,
 		"craftTime": 32,
@@ -80,52 +65,7 @@
 			}
 		]
 	},
-	{				
-		"itemId": "fcfae5e2-1df9-47d8-bb9a-30bec9b5b1f5", //obj_container_smallchest	 
-		"quantity": 1,			
-		"craftTime": 57,			
-		"ingredientList": [			
-			{		 
-				"quantity": 40, //blk_metal1
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"	
-			},
-			{
-				"quantity": 5, //obj_consumable_component
-				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
-			},
-			{
-				"quantity": 2, //jnt_bearing
-				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
-			},
-			{		 
-				"quantity": 5,//obj_consumable_glue
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"	
-			}
-		]	
-	},	
-	{
-		"itemId": "ad35f7e6-af8f-40fa-aef4-77d827ac8a8a", //obj_container_chest
-		"quantity": 1,
-		"craftTime": 87,
-		"ingredientList": [
-			{
-				"quantity": 1, //obj_container_smallchest
-				"itemId": "fcfae5e2-1df9-47d8-bb9a-30bec9b5b1f5"
-			},
-			{
-				"quantity": 60, //blk_metal2
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
-			},
-			{
-				"quantity": 10, //obj_consumable_component
-				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
-			},
-			{
-				"quantity": 5, //obj_consumable_glue
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
-			}
-		]
-	},
+	
 	{
 		"itemId": "f0cba95b-2dc4-4492-8fd9-36546a4cb5aa", //blk_cardboard
 		"quantity": 20,
@@ -275,50 +215,6 @@
 		]
 	},
 	{
-		"itemId": "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b", //blk_metalnet
-		"quantity": 10,
-		"craftTime": 7,
-		"ingredientList": [
-			{
-				"quantity": 2, //blk_metal1
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
-			}
-		]
-	},
-	{
-		"itemId": "ea6864db-bb4f-4a89-b9ec-977849b6713a", //blk_tryponet
-		"quantity": 10,
-		"craftTime": 7,
-		"ingredientList": [
-			{
-				"quantity": 2, //blk_metal2
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
-			}
-		]
-	},
-	{
-		"itemId": "3d0b7a6e-5b40-474c-bbaf-efaa54890e6a", //blk_crossnet
-		"quantity": 10,
-		"craftTime": 7,
-		"ingredientList": [
-			{
-				"quantity": 2, //blk_metal3
-				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
-			}
-		]
-	},
-	{
-		"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b", //blk_sand
-		"quantity": 10,
-		"craftTime": 7,
-		"ingredientList": [
-			{
-				"quantity": 5, //blk_scrapstone
-				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
-			}
-		]
-	},
-	{
 		"itemId": "a6c6ce30-dd47-4587-b475-085d55c6a3b4", //blk_concrete1
 		"quantity": 10,
 		"craftTime": 7,
@@ -384,6 +280,17 @@
 			{
 				"quantity": 5, //obj_consumable_water
 				"itemId": "869d4736-289a-4952-96cd-8a40117a2d28"
+			}
+		]
+	},
+	{
+		"itemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b", //blk_sand
+		"quantity": 10,
+		"craftTime": 7,
+		"ingredientList": [
+			{
+				"quantity": 5, //blk_scrapstone
+				"itemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
 			}
 		]
 	},
@@ -470,6 +377,39 @@
 			{
 				"quantity": 5, //blk_metal1
 				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+			}
+		]
+	},
+	{
+		"itemId": "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b", //blk_metalnet
+		"quantity": 10,
+		"craftTime": 7,
+		"ingredientList": [
+			{
+				"quantity": 2, //blk_metal1
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+			}
+		]
+	},
+	{
+		"itemId": "ea6864db-bb4f-4a89-b9ec-977849b6713a", //blk_tryponet
+		"quantity": 10,
+		"craftTime": 7,
+		"ingredientList": [
+			{
+				"quantity": 2, //blk_metal2
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			}
+		]
+	},
+	{
+		"itemId": "3d0b7a6e-5b40-474c-bbaf-efaa54890e6a", //blk_crossnet
+		"quantity": 10,
+		"craftTime": 7,
+		"ingredientList": [
+			{
+				"quantity": 2, //blk_metal3
+				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
 			}
 		]
 	},
@@ -621,186 +561,25 @@
 		]
 	},
 	{
-		"itemId": "598d865c-324c-4129-9c57-21a6abd2cb2e", //obj_interactive_controller_01
-		"quantity": 1,
-		"craftTime": 37,
-		"ingredientList": [
-			{
-				"quantity": 10, //blk_metal2
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
-			},
-			{
-				"quantity": 10, //obj_resource_circuitboard
-				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
-			},
-			{
-				"quantity": 4, //obj_consumable_component
-				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
-			},
-			{
-				"quantity": 5, //obj_consumable_glue
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
-			}
-		]
-	},
-	{
-		"itemId": "1bfccc0a-828f-475c-882c-87d5a96054c9", //obj_interactive_gasengine_01
-		"quantity": 1,
-		"craftTime": 87,
-		"ingredientList": [
-			{
-				"quantity": 1, //obj_scrap_gasengine
-				"itemId": "c96ab903-f238-4bae-a614-28a758716d00"
-			},
-			{
-				"quantity": 2, //jnt_interactive_piston_01
-				"itemId": "8c741785-5eae-4c48-9f99-d62bf522a83f"
-			},
-			{
-				"quantity": 20, //obj_consumable_component
-				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
-			},
-			{
-				"quantity": 60, //blk_metal3
-				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
-			}
-		]
-	},
-	{
-		"itemId": "3b972f2f-30c7-4a5e-a100-5e257e62295d", //obj_interactive_seat_01
-		"quantity": 1,
-		"craftTime": 37,
-		"ingredientList": [
-			{
-				"quantity": 1, //obj_scrap_driverseat
-				"itemId": "bd597ac9-6640-43ba-9bd8-ed584a794f13"
-			},
-			{
-				"quantity": 5, //blk_metal2
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
-			},
-			{
-				"quantity": 5, //obj_consumable_component
-				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
-			},
-			{
-				"quantity": 10, //obj_resource_cotton
-				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
-			}
-		]
-	},
-	{
-		"itemId": "2d3016f7-febe-416e-93bc-41d80ca3910d", //obj_interactive_saddle_01
-		"quantity": 1,
-		"craftTime": 37,
-		"ingredientList": [
-			{
-				"quantity": 1, //obj_scrap_driverseat
-				"itemId": "bd597ac9-6640-43ba-9bd8-ed584a794f13"
-			},
-			{
-				"quantity": 5, //blk_metal2
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
-			},
-			{
-				"quantity": 5, //obj_consumable_component
-				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
-			},
-			{
-				"quantity": 10, //obj_resource_cotton
-				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
-			}
-		]
-	},
-	{
-		"itemId": "77c2687c-2e13-4df8-996a-96fb26d75ee0", //obj_interactive_driverseat_01
-		"quantity": 1,
-		"craftTime": 57,
-		"ingredientList": [
-			{
-				"quantity": 1, //obj_interactive_seat_01
-				"itemId": "3b972f2f-30c7-4a5e-a100-5e257e62295d"
-			},
-			{
-				"quantity": 1, //obj_interactive_controller_01
-				"itemId": "598d865c-324c-4129-9c57-21a6abd2cb2e"
-			},
-			{
-				"quantity": 5, //jnt_bearing
-				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
-			},
-			{
-				"quantity": 10, //obj_resource_cotton
-				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
-			}
-		]
-	},
-	{
-		"itemId": "7d601a5a-796d-4cae-be88-b47479d38d11", //obj_interactive_driversaddle_01
-		"quantity": 1,
-		"craftTime": 57,
-		"ingredientList": [
-			{
-				"quantity": 1, //obj_interactive_saddle_01
-				"itemId": "2d3016f7-febe-416e-93bc-41d80ca3910d"
-			},
-			{
-				"quantity": 1, //obj_interactive_controller_01
-				"itemId": "598d865c-324c-4129-9c57-21a6abd2cb2e"
-			},
-			{
-				"quantity": 5, //jnt_bearing
-				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
-			},
-			{
-				"quantity": 10, //obj_resource_cotton
-				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
-			}
-		]
-	},
-	{
-		"itemId": "69e362c3-32aa-4cd1-adc0-dcfc47b92c0d", //obj_vehicle_smallwheel
-		"quantity": 1,
-		"craftTime": 17,
-		"ingredientList": [
-			{
-				"quantity": 1, //obj_scrap_smallwheel
-				"itemId": "59f6951a-a450-42bf-ad03-54567cb70245"
-			},
-			{
-				"quantity": 10, //blk_metal2
-				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
-			},
-			{
-				"quantity": 3, //obj_consumable_glue
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
-			},
-			{
-				"quantity": 5, //jnt_bearing
-				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
-			}
-		]
-	},
-	{
-		"itemId": "db66f0b1-0c50-4b74-bdc7-771374204b1f", //obj_vehicle_bigwheel
+		"itemId": "1d4793af-cb66-4628-804a-9d7404712643", //obj_interactive_sensor_01
 		"quantity": 1,
 		"craftTime": 27,
 		"ingredientList": [
 			{
-				"quantity": 1, //obj_vehicle_smallwheel
-				"itemId": "69e362c3-32aa-4cd1-adc0-dcfc47b92c0d"
+				"quantity": 5, //obj_consumable_battery
+				"itemId": "910a7f2c-52b0-46eb-8873-ad13255539af"
 			},
 			{
-				"quantity": 15, //blk_metal3
+				"quantity": 2, //blk_metal3
 				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
 			},
 			{
-				"quantity": 6, //obj_consumable_glue
-				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+				"quantity": 2, //blk_glass
+				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f"
 			},
 			{
-				"quantity": 10, //jnt_bearing
-				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
+				"quantity": 2, //obj_resource_circuitboard
+				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
 			}
 		]
 	},
@@ -874,25 +653,136 @@
 		]
 	},
 	{
-		"itemId": "1d4793af-cb66-4628-804a-9d7404712643", //obj_interactive_sensor_01
+		"itemId": "1bfccc0a-828f-475c-882c-87d5a96054c9", //obj_interactive_gasengine_01
 		"quantity": 1,
-		"craftTime": 27,
+		"craftTime": 87,
 		"ingredientList": [
 			{
-				"quantity": 5, //obj_consumable_battery
-				"itemId": "910a7f2c-52b0-46eb-8873-ad13255539af"
+				"quantity": 1, //obj_scrap_gasengine
+				"itemId": "c96ab903-f238-4bae-a614-28a758716d00"
 			},
 			{
-				"quantity": 2, //blk_metal3
+				"quantity": 2, //jnt_interactive_piston_01
+				"itemId": "8c741785-5eae-4c48-9f99-d62bf522a83f"
+			},
+			{
+				"quantity": 20, //obj_consumable_component
+				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
+			},
+			{
+				"quantity": 60, //blk_metal3
 				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
+			}
+		]
+	},
+	{
+		"itemId": "77c2687c-2e13-4df8-996a-96fb26d75ee0", //obj_interactive_driverseat_01
+		"quantity": 1,
+		"craftTime": 57,
+		"ingredientList": [
+			{
+				"quantity": 1, //obj_interactive_seat_01
+				"itemId": "3b972f2f-30c7-4a5e-a100-5e257e62295d"
 			},
 			{
-				"quantity": 2, //blk_glass
-				"itemId": "5f41af56-df4c-4837-9b3c-10781335757f"
+				"quantity": 1, //obj_interactive_controller_01
+				"itemId": "598d865c-324c-4129-9c57-21a6abd2cb2e"
 			},
 			{
-				"quantity": 2, //obj_resource_circuitboard
-				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
+				"quantity": 5, //jnt_bearing
+				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
+			},
+			{
+				"quantity": 10, //obj_resource_cotton
+				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
+			}
+		]
+	},
+	{
+		"itemId": "3b972f2f-30c7-4a5e-a100-5e257e62295d", //obj_interactive_seat_01
+		"quantity": 1,
+		"craftTime": 37,
+		"ingredientList": [
+			{
+				"quantity": 1, //obj_scrap_driverseat
+				"itemId": "bd597ac9-6640-43ba-9bd8-ed584a794f13"
+			},
+			{
+				"quantity": 5, //blk_metal2
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			},
+			{
+				"quantity": 5, //obj_consumable_component
+				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
+			},
+			{
+				"quantity": 10, //obj_resource_cotton
+				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
+			}
+		]
+	},
+	{
+		"itemId": "7d601a5a-796d-4cae-be88-b47479d38d11", //obj_interactive_driversaddle_01
+		"quantity": 1,
+		"craftTime": 57,
+		"ingredientList": [
+			{
+				"quantity": 1, //obj_interactive_saddle_01
+				"itemId": "2d3016f7-febe-416e-93bc-41d80ca3910d"
+			},
+			{
+				"quantity": 1, //obj_interactive_controller_01
+				"itemId": "598d865c-324c-4129-9c57-21a6abd2cb2e"
+			},
+			{
+				"quantity": 5, //jnt_bearing
+				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
+			},
+			{
+				"quantity": 10, //obj_resource_cotton
+				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
+			}
+		]
+	},
+	{
+		"itemId": "2d3016f7-febe-416e-93bc-41d80ca3910d", //obj_interactive_saddle_01
+		"quantity": 1,
+		"craftTime": 37,
+		"ingredientList": [
+			{
+				"quantity": 1, //obj_scrap_driverseat
+				"itemId": "bd597ac9-6640-43ba-9bd8-ed584a794f13"
+			},
+			{
+				"quantity": 5, //blk_metal2
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			},
+			{
+				"quantity": 5, //obj_consumable_component
+				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
+			},
+			{
+				"quantity": 10, //obj_resource_cotton
+				"itemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
+			}
+		]
+	},
+	{
+		"itemId": "ca003562-fde7-463c-969e-f8334ae54387", //obj_interactive_toilet
+		"quantity": 1,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 5, //blk_metal1
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+			},
+			{
+				"quantity": 5, //obj_consumable_inkammo
+				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
+			},
+			{
+				"quantity": 5, //obj_resource_beewax
+				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
 			}
 		]
 	},
@@ -916,6 +806,29 @@
 			{
 				"quantity": 1, //obj_interactive_gasengine_01
 				"itemId": "1bfccc0a-828f-475c-882c-87d5a96054c9" 
+			}
+		]
+	},
+	{
+		"itemId": "598d865c-324c-4129-9c57-21a6abd2cb2e", //obj_interactive_controller_01
+		"quantity": 1,
+		"craftTime": 37,
+		"ingredientList": [
+			{
+				"quantity": 10, //blk_metal2
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			},
+			{
+				"quantity": 10, //obj_resource_circuitboard
+				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
+			},
+			{
+				"quantity": 4, //obj_consumable_component
+				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
+			},
+			{
+				"quantity": 5, //obj_consumable_glue
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
 			}
 		]
 	},
@@ -989,29 +902,6 @@
 		]
 	},
 	{
-		"itemId": "a5985971-1f95-4373-a5d9-4ce0a3e74851", //obj_interactive_beacon
-		"quantity": 1,
-		"craftTime": 42,
-		"ingredientList": [
-			{
-				"quantity": 2, //obj_interactive_radio
-				"itemId": "dfefc9d7-db03-4d25-ad85-eae1d824d8c0"
-			},
-			{
-				"quantity": 15, //blk_metal3
-				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
-			},
-			{
-				"quantity": 20, //obj_resource_circuitboard
-				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
-			},
-			{
-				"quantity": 25, //obj_resource_beewax
-				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
-			}
-		]
-	},
-	{
 		"itemId": "818f4e15-ff51-4fed-b874-723a25d62e1c", //obj_interactive_horn
 		"quantity": 1,
 		"craftTime": 42,
@@ -1054,20 +944,24 @@
 		]
 	},
 	{
-		"itemId": "ca003562-fde7-463c-969e-f8334ae54387", //obj_interactive_toilet
+		"itemId": "a5985971-1f95-4373-a5d9-4ce0a3e74851", //obj_interactive_beacon
 		"quantity": 1,
-		"craftTime": 2,
+		"craftTime": 42,
 		"ingredientList": [
 			{
-				"quantity": 5, //blk_metal1
-				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+				"quantity": 2, //obj_interactive_radio
+				"itemId": "dfefc9d7-db03-4d25-ad85-eae1d824d8c0"
 			},
 			{
-				"quantity": 5, //obj_consumable_inkammo
-				"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
+				"quantity": 15, //blk_metal3
+				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
 			},
 			{
-				"quantity": 5, //obj_resource_beewax
+				"quantity": 20, //obj_resource_circuitboard
+				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
+			},
+			{
+				"quantity": 25, //obj_resource_beewax
 				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
 			}
 		]
@@ -1088,6 +982,52 @@
 			{
 				"quantity": 5, //obj_resource_circuitboard
 				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
+			},
+			{
+				"quantity": 5, //obj_consumable_glue
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+			}
+		]
+	},
+	{				
+		"itemId": "fcfae5e2-1df9-47d8-bb9a-30bec9b5b1f5", //obj_container_smallchest	 
+		"quantity": 1,			
+		"craftTime": 57,			
+		"ingredientList": [			
+			{		 
+				"quantity": 40, //blk_metal1
+				"itemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"	
+			},
+			{
+				"quantity": 5, //obj_consumable_component
+				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
+			},
+			{
+				"quantity": 2, //jnt_bearing
+				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
+			},
+			{		 
+				"quantity": 5,//obj_consumable_glue
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"	
+			}
+		]	
+	},	
+	{
+		"itemId": "ad35f7e6-af8f-40fa-aef4-77d827ac8a8a", //obj_container_chest
+		"quantity": 1,
+		"craftTime": 87,
+		"ingredientList": [
+			{
+				"quantity": 1, //obj_container_smallchest
+				"itemId": "fcfae5e2-1df9-47d8-bb9a-30bec9b5b1f5"
+			},
+			{
+				"quantity": 60, //blk_metal2
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			},
+			{
+				"quantity": 10, //obj_consumable_component
+				"itemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
 			},
 			{
 				"quantity": 5, //obj_consumable_glue
@@ -1157,138 +1097,6 @@
 		]
 	},
 	{
-		"itemId": "798c2c81-1f8e-481b-8c32-b71b5dc5511a", //obj_tool_bucket_empty
-		"quantity": 1,
-		"craftTime": 17,
-		"ingredientList": [
-			{
-				"quantity": 5, //blk_scrapmetal
-				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
-			},
-			{
-				"quantity": 5, //obj_resource_beewax
-				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
-			}
-		]
-	},
-	{
-		"itemId": "d4d68946-aa03-4b8f-b1af-96b81ad4e305", //obj_consumable_gas
-		"quantity": 5,
-		"craftTime": 25,
-		"ingredientList": [
-			{
-				"quantity": 10, //obj_resource_crudeoil
-				"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0"
-			},
-			{
-				"quantity": 5, //obj_consumable_chemical
-				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
-			},
-			{
-				"quantity": 2, //obj_resource_corn
-				"itemId": "fe8bfeba-850b-4827-9785-10e2468c9c23"
-			}
-		]
-	},
-	{
-		"itemId": "910a7f2c-52b0-46eb-8873-ad13255539af", //obj_consumable_battery
-		"quantity": 5,
-		"craftTime": 7,
-		"ingredientList": [
-			{
-				"quantity": 10, //blk_scrapmetal
-				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
-			},
-			{
-				"quantity": 5, //obj_resource_glowpoop
-				"itemId": "388adeab-67e5-4901-afe8-c56217754510"
-			},
-			{
-				"quantity": 5, //obj_consumable_chemical
-				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
-			}
-		]
-	},
-	{
-		"itemId": "36335664-6e61-4d44-9876-54f9660a8565", //obj_consumable_glue
-		"quantity": 1,
-		"craftTime": 2,
-		"ingredientList": [
-			{
-				"quantity": 3, //obj_resources_slimyclam
-				"itemId": "40e8bd0d-04a0-4e95-b593-4038b54b156f"
-			},
-			{
-				"quantity": 1, //obj_consumable_water
-				"itemId": "869d4736-289a-4952-96cd-8a40117a2d28"
-			},
-			{
-				"quantity": 1, //obj_resource_beewax
-				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
-			}
-		]
-	},
-	{
-		"itemId": "869d4736-289a-4952-96cd-8a40117a2d28", //obj_consumable_water
-		"extras": [
-			{				//obj_tool_bucket_empty
-				"itemId": "798c2c81-1f8e-481b-8c32-b71b5dc5511a",
-				"quantity": 1
-			}
-		],
-		"quantity": 2,
-		"craftTime": 2,
-		"ingredientList": [
-			{
-				"quantity": 1, //obj_tool_bucket_water
-				"itemId": "103fc4e6-7e57-465e-a86d-983343415877"
-			}
-		]
-	},
-	{
-		"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25", //obj_consumable_chemical
-		"extras": [
-			{				//obj_tool_bucket_empty
-				"itemId": "798c2c81-1f8e-481b-8c32-b71b5dc5511a",
-				"quantity": 1
-			}
-		],
-		"quantity": 2,
-		"craftTime": 2,
-		"ingredientList": [
-			{
-				"quantity": 1, //obj_tool_bucket_chemical
-				"itemId": "2e792123-4a10-4cc6-b9ef-c5a518655cb4"
-			}
-		]
-	},
-	{
-		"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7", //obj_consumable_inkammo
-		"quantity": 5,
-		"craftTime": 2,
-		"ingredientList": [
-			{
-				"quantity": 1, //obj_resource_flower
-				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
-			}
-		]
-	},
-	{
-		"itemId": "3a3280e4-03b6-4a4d-9e02-e348478213c9", //obj_consumable_glowstick
-		"quantity": 4,
-		"craftTime": 17,
-		"ingredientList": [
-			{
-				"quantity": 4, //obj_consumable_chemical
-				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
-			},
-			{
-				"quantity": 4, //obj_resource_glowpoop
-				"itemId": "388adeab-67e5-4901-afe8-c56217754510"
-			}
-		]
-	},
-	{
 		"itemId": "8d3b98de-c981-4f05-abfe-d22ee4781d33", //obj_interactive_propanetank_small
 		"quantity": 1,
 		"craftTime": 17,
@@ -1327,6 +1135,86 @@
 			{
 				"quantity": 1, //obj_interactive_propanetank_small
 				"itemId": "8d3b98de-c981-4f05-abfe-d22ee4781d33"
+			}
+		]
+	},
+	{
+		"itemId": "798c2c81-1f8e-481b-8c32-b71b5dc5511a", //obj_tool_bucket_empty
+		"quantity": 1,
+		"craftTime": 17,
+		"ingredientList": [
+			{
+				"quantity": 5, //blk_scrapmetal
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
+			},
+			{
+				"quantity": 5, //obj_resource_beewax
+				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
+			}
+		]
+	},
+	{
+		"itemId": "36335664-6e61-4d44-9876-54f9660a8565", //obj_consumable_glue
+		"quantity": 1,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 3, //obj_resources_slimyclam
+				"itemId": "40e8bd0d-04a0-4e95-b593-4038b54b156f"
+			},
+			{
+				"quantity": 1, //obj_consumable_water
+				"itemId": "869d4736-289a-4952-96cd-8a40117a2d28"
+			},
+			{
+				"quantity": 1, //obj_resource_beewax
+				"itemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
+			}
+		]
+	},
+	{
+		"itemId": "69e362c3-32aa-4cd1-adc0-dcfc47b92c0d", //obj_vehicle_smallwheel
+		"quantity": 1,
+		"craftTime": 17,
+		"ingredientList": [
+			{
+				"quantity": 1, //obj_scrap_smallwheel
+				"itemId": "59f6951a-a450-42bf-ad03-54567cb70245"
+			},
+			{
+				"quantity": 10, //blk_metal2
+				"itemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+			},
+			{
+				"quantity": 3, //obj_consumable_glue
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+			},
+			{
+				"quantity": 5, //jnt_bearing
+				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
+			}
+		]
+	},
+	{
+		"itemId": "db66f0b1-0c50-4b74-bdc7-771374204b1f", //obj_vehicle_bigwheel
+		"quantity": 1,
+		"craftTime": 27,
+		"ingredientList": [
+			{
+				"quantity": 1, //obj_vehicle_smallwheel
+				"itemId": "69e362c3-32aa-4cd1-adc0-dcfc47b92c0d"
+			},
+			{
+				"quantity": 15, //blk_metal3
+				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
+			},
+			{
+				"quantity": 6, //obj_consumable_glue
+				"itemId": "36335664-6e61-4d44-9876-54f9660a8565"
+			},
+			{
+				"quantity": 10, //jnt_bearing
+				"itemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
 			}
 		]
 	},
@@ -1573,6 +1461,21 @@
 			{
 				"quantity": 3, //obj_resource_circuitboard
 				"itemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
+			}
+		]
+	},
+	{
+		"itemId": "a6ec1dcc-07e9-418a-819e-904e28a32f63", //obj_decor_mug
+		"quantity": 1,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1000, //blk_metal3
+				"itemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
+			},
+			{
+				"quantity": 27, //obj_survivalobject_keycard
+				"itemId": "e49b210a-0d46-4f06-bcd8-08862379d156"
 			}
 		]
 	},
@@ -1962,6 +1865,104 @@
 			{
 				"quantity": 3, //obj_seed_broccoli  
 				"itemId": "1c6756ca-3a60-4dcb-a5d1-353edf818308"
+			}
+		]
+	},
+	{
+		"itemId": "d4d68946-aa03-4b8f-b1af-96b81ad4e305", //obj_consumable_gas
+		"quantity": 5,
+		"craftTime": 25,
+		"ingredientList": [
+			{
+				"quantity": 10, //obj_resource_crudeoil
+				"itemId": "1147e59d-6940-42b4-840b-07f05054f5e0"
+			},
+			{
+				"quantity": 5, //obj_consumable_chemical
+				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
+			},
+			{
+				"quantity": 2, //obj_resource_corn
+				"itemId": "fe8bfeba-850b-4827-9785-10e2468c9c23"
+			}
+		]
+	},
+	{
+		"itemId": "910a7f2c-52b0-46eb-8873-ad13255539af", //obj_consumable_battery
+		"quantity": 5,
+		"craftTime": 7,
+		"ingredientList": [
+			{
+				"quantity": 10, //blk_scrapmetal
+				"itemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
+			},
+			{
+				"quantity": 5, //obj_resource_glowpoop
+				"itemId": "388adeab-67e5-4901-afe8-c56217754510"
+			},
+			{
+				"quantity": 5, //obj_consumable_chemical
+				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
+			}
+		]
+	},
+	{
+		"itemId": "869d4736-289a-4952-96cd-8a40117a2d28", //obj_consumable_water
+		"extras": [
+			{				//obj_tool_bucket_empty
+				"itemId": "798c2c81-1f8e-481b-8c32-b71b5dc5511a",
+				"quantity": 1
+			}
+		],
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1, //obj_tool_bucket_water
+				"itemId": "103fc4e6-7e57-465e-a86d-983343415877"
+			}
+		]
+	},
+	{
+		"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25", //obj_consumable_chemical
+		"extras": [
+			{				//obj_tool_bucket_empty
+				"itemId": "798c2c81-1f8e-481b-8c32-b71b5dc5511a",
+				"quantity": 1
+			}
+		],
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1, //obj_tool_bucket_chemical
+				"itemId": "2e792123-4a10-4cc6-b9ef-c5a518655cb4"
+			}
+		]
+	},
+	{
+		"itemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7", //obj_consumable_inkammo
+		"quantity": 5,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 1, //obj_resource_flower
+				"itemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
+			}
+		]
+	},
+	{
+		"itemId": "3a3280e4-03b6-4a4d-9e02-e348478213c9", //obj_consumable_glowstick
+		"quantity": 4,
+		"craftTime": 17,
+		"ingredientList": [
+			{
+				"quantity": 4, //obj_consumable_chemical
+				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
+			},
+			{
+				"quantity": 4, //obj_resource_glowpoop
+				"itemId": "388adeab-67e5-4901-afe8-c56217754510"
 			}
 		]
 	},
