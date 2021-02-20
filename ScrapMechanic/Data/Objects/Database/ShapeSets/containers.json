@@ -1,414 +1,630 @@
 {
-	"partList": [
+	"Sledgehammer":
+	{
+		"destruction":
 		{
-			"uuid": "c3990931-b471-4e89-beb5-0baaef47f0af",
-			"name": "obj_containers_woodbox",
-			"legacyId": 606,
-			"renderable": {
-				"lodList": [
-					{
-						"subMeshList": [
-							{
-								"textureList": [
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_woodbox_dif.tga",
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_woodbox_asg.tga",
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_woodbox_nor.tga"
-								],
-								"material": "DifAsgNor"
-							}
-						],
-						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_woodbox.fbx"
-					}
-				]
-			},
-			"color": "cb8d43",
-			"box": {
-				"x": 3,
-				"y": 2,
-				"z": 2
-			},
-			"chest": {
-				"slots": 10
-			},
-			"rotationSet": "StaticYmZmXm",
-			"physicsMaterial": "Wood",
-			"ratings": {
-				"density": 4,
-				"durability": 2,
-				"friction": 6,
-				"buoyancy": 5
-			},
-			"flammable": true
+			"destructionLevels":
+			[
+				{
+					"qualityLevel": 1,
+					"chance": 1.0
+				}
+			]
 		},
+		"hitSphere":
 		{
-			"uuid": "80550b05-f9eb-433c-9773-2af3beb1479d",
-			"name": "obj_containers_vegboxgreen",
-			"legacyId": 607,
-			"renderable": {
-				"lodList": [
-					{
-						"subMeshList": [
-							{
-								"textureList": [
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_dif.tga",
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_asg.tga",
-									""
-								],
-								"material": "DifAsg"
-							}
-						],
-						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_vegboxgreen.mesh"
-					}
-				]
-			},
-			"color": "7d9f2b",
-			"box": {
-				"x": 4,
-				"y": 2,
-				"z": 3
-			},
-			"rotationSet": "StaticYmZmXm",
-			"physicsMaterial": "Wood",
-			"ratings": {
-				"density": 4,
-				"durability": 1,
-				"friction": 5,
-				"buoyancy": 2
-			},
-			"flammable": true
+			"radius": 0.01
 		},
+		"impactEffect": "Weapon - Impact"
+	},
+	"ToteBotAttack":
+	{
+		"destruction":
 		{
-			"uuid": "f0438bd7-6307-4991-943f-d78b04877d96",
-			"name": "obj_containers_vegboxcucumber",
-			"legacyId": 608,
-			"renderable": {
-				"lodList": [
-					{
-						"subMeshList": [
-							{
-								"textureList": [
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_dif.tga",
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_asg.tga",
-									""
-								],
-								"material": "DifAsg"
-							}
-						],
-						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_vegboxcucumber.mesh"
-					}
-				]
-			},
-			"color": "be4d22",
-			"box": {
-				"x": 4,
-				"y": 2,
-				"z": 3
-			},
-			"rotationSet": "StaticYZX",
-			"physicsMaterial": "Wood",
-			"ratings": {
-				"density": 4,
-				"durability": 1,
-				"friction": 4,
-				"buoyancy": 2
-			},
-			"flammable": true
+			"destructionLevels":
+			[
+				{
+					"qualityLevel": 1,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 2,
+					"chance": 0.75
+				},
+				{
+					"qualityLevel": 3,
+					"chance": 0.5
+				},
+				{
+					"qualityLevel": 4,
+					"chance": 0.2
+				},
+				{
+					"qualityLevel": 5,
+					"chance": 0.1
+				},
+				{
+					"qualityLevel": 6,
+					"chance": 0.05
+				},
+				{
+					"qualityLevel": 7,
+					"chance": 0.025
+				},
+				{
+					"qualityLevel": 8,
+					"chance": 0.0
+				},
+				{
+					"qualityLevel": 9,
+					"chance": 0.0
+				}
+			]
 		},
+		"hitSphere":
 		{
-			"uuid": "f6687d52-efc1-4f00-b573-bee4363ee14f",
-			"name": "obj_containers_vegboxcarrot",
-			"legacyId": 609,
-			"renderable": {
-				"lodList": [
-					{
-						"subMeshList": [
-							{
-								"textureList": [
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_dif.tga",
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_asg.tga",
-									""
-								],
-								"material": "DifAsg"
-							}
-						],
-						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_vegboxcarrot.mesh"
-					}
-				]
-			},
-			"color": "62cedc",
-			"box": {
-				"x": 4,
-				"y": 3,
-				"z": 3
-			},
-			"rotationSet": "StaticYmZmXm",
-			"physicsMaterial": "Wood",
-			"ratings": {
-				"density": 4,
-				"durability": 1,
-				"friction": 5,
-				"buoyancy": 2
-			},
-			"flammable": true
+			"radius": 0.1
 		},
+		"impactEffect": "Weapon - Impact"
+	},
+	"ToteBotWhip":
+	{
+		"destruction":
 		{
-			"uuid": "18a38c8e-18ec-46c5-be00-cee7724401e2",
-			"name": "obj_containers_vegboxbanana",
-			"legacyId": 610,
-			"renderable": {
-				"lodList": [
-					{
-						"subMeshList": [
-							{
-								"textureList": [
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_dif.tga",
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_asg.tga",
-									""
-								],
-								"material": "DifAsg"
-							}
-						],
-						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_vegboxbanana.mesh"
-					}
-				]
-			},
-			"color": "83a633",
-			"box": {
-				"x": 4,
-				"y": 3,
-				"z": 3
-			},
-			"rotationSet": "StaticYmZmXm",
-			"physicsMaterial": "Wood",
-			"ratings": {
-				"density": 4,
-				"durability": 1,
-				"friction": 5,
-				"buoyancy": 2
-			},
-			"flammable": true
+			"destructionLevels":
+			[
+				{
+					"qualityLevel": 1,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 2,
+					"chance": 0.75
+				},
+				{
+					"qualityLevel": 3,
+					"chance": 0.5
+				},
+				{
+					"qualityLevel": 4,
+					"chance": 0.2
+				},
+				{
+					"qualityLevel": 5,
+					"chance": 0.1
+				},
+				{
+					"qualityLevel": 6,
+					"chance": 0.05
+				},
+				{
+					"qualityLevel": 7,
+					"chance": 0.025
+				},
+				{
+					"qualityLevel": 8,
+					"chance": 0.0
+				},
+				{
+					"qualityLevel": 9,
+					"chance": 0.0
+				}
+			]
 		},
+		"hitSphere":
 		{
-			"uuid": "8b684022-254b-41af-a58c-ec4b14791000",
-			"name": "obj_containers_vegboxblue",
-			"legacyId": 611,
-			"renderable": {
-				"lodList": [
-					{
-						"subMeshList": [
-							{
-								"textureList": [
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_dif.tga",
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_asg.tga",
-									""
-								],
-								"material": "DifAsg"
-							}
-						],
-						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_vegboxblue.mesh"
-					}
-				]
-			},
-			"color": "84dfd2",
-			"box": {
-				"x": 4,
-				"y": 4,
-				"z": 4
-			},
-			"rotationSet": "StaticYmZmXm",
-			"physicsMaterial": "Plastic",
-			"ratings": {
-				"density": 4,
-				"durability": 1,
-				"friction": 5,
-				"buoyancy": 2
-			},
-			"flammable": true
+			"radius": 0.1
 		},
+		"impactEffect": "Weapon - Impact"
+	},
+	"HaybotPitchfork":
+	{
+		"destruction":
 		{
-			"uuid": "de467c9b-a0ab-4e20-95ae-0e5fe8140989",
-			"name": "obj_containers_vegboxonion",
-			"legacyId": 612,
-			"renderable": {
-				"lodList": [
-					{
-						"subMeshList": [
-							{
-								"textureList": [
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_dif.tga",
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_asg.tga",
-									""
-								],
-								"material": "DifAsg"
-							}
-						],
-						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_vegboxonion.mesh"
-					}
-				]
-			},
-			"color": "bc8543",
-			"box": {
-				"x": 6,
-				"y": 4,
-				"z": 4
-			},
-			"rotationSet": "StaticYmZmXm",
-			"physicsMaterial": "Wood",
-			"ratings": {
-				"density": 4,
-				"durability": 1,
-				"friction": 5,
-				"buoyancy": 2
-			},
-			"flammable": true
+			"destructionLevels":
+			[
+				{
+					"qualityLevel": 1,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 2,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 3,
+					"chance": 0.75
+				},
+				{
+					"qualityLevel": 4,
+					"chance": 0.5
+				},
+				{
+					"qualityLevel": 5,
+					"chance": 0.2
+				},
+				{
+					"qualityLevel": 6,
+					"chance": 0.1
+				},
+				{
+					"qualityLevel": 7,
+					"chance": 0.05
+				},
+				{
+					"qualityLevel": 8,
+					"chance": 0.025
+				},
+				{
+					"qualityLevel": 9,
+					"chance": 0.0
+				}
+			],
+			"radius": 0.25
 		},
+		"hitSphere":
 		{
-			"uuid": "7ece2c9b-bc74-45b7-b5f1-4c6f41a03a7a",
-			"name": "obj_containers_vegboxbeetroot",
-			"legacyId": 613,
-			"renderable": {
-				"lodList": [
-					{
-						"subMeshList": [
-							{
-								"textureList": [
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_dif.tga",
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_asg.tga",
-									""
-								],
-								"material": "DifAsg"
-							}
-						],
-						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_vegboxbeetroot.mesh"
-					}
-				]
-			},
-			"color": "c57246",
-			"box": {
-				"x": 6,
-				"y": 4,
-				"z": 4
-			},
-			"rotationSet": "StaticYmZmXm",
-			"physicsMaterial": "Wood",
-			"ratings": {
-				"density": 4,
-				"durability": 1,
-				"friction": 5,
-				"buoyancy": 2
-			},
-			"flammable": true
+			"radius": 0.15
 		},
+		"impactEffect": "Weapon - Impact"
+	},
+	"HaybotPitchforkSwipe":
+	{
+		"hitBox":
 		{
-			"uuid": "8bcc5a38-b566-45fe-b47e-45118ee70d2d",
-			"name": "obj_containers_vegboxorange",
-			"legacyId": 614,
-			"renderable": {
-				"lodList": [
-					{
-						"subMeshList": [
-							{
-								"textureList": [
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_dif.tga",
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_vegbox_asg.tga",
-									""
-								],
-								"material": "DifAsg"
-							}
-						],
-						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_vegboxorange.mesh"
-					}
-				]
-			},
-			"color": "f59d39",
-			"box": {
-				"x": 6,
-				"y": 6,
-				"z": 6
-			},
-			"rotationSet": "StaticYmZmXm",
-			"physicsMaterial": "Wood",
-			"ratings": {
-				"density": 4,
-				"durability": 1,
-				"friction": 5,
-				"buoyancy": 2
-			},
-			"flammable": true
+			"halfWidth": 1.5,
+			"halfHeight": 0.375
 		},
+		"impactEffect": "Weapon - Impact"
+	},
+	"FarmbotSwipe":
+	{
+		"destruction":
 		{
-			"uuid": "faae6e1a-f431-49fd-b8b8-16f12139ee88",
-			"name": "obj_containers_plantcontainerclosed",
-			"legacyId": 615,
-			"renderable": {
-				"lodList": [
-					{
-						"subMeshList": [
-							{
-								"textureList": [
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_plantcontainer_dif.tga",
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_plantcontainer_asg.tga",
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_plantcontainer_nor.tga"
-								],
-								"material": "DifAsgNor"
-							}
-						],
-						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_plantcontainerclosed.mesh"
-					}
-				]
-			},
-			"color": "73adb7",
-			"box": {
-				"x": 2,
-				"y": 2,
-				"z": 2
-			},
-			"rotationSet": "PropY",
-			"physicsMaterial": "Wood",
-			"ratings": {
-				"density": 4,
-				"durability": 1,
-				"friction": 6,
-				"buoyancy": 1
-			},
-			"flammable": true
+			"destructionLevels":
+			[
+				{
+					"qualityLevel": 1,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 2,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 3,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 4,
+					"chance": 0.75
+				},
+				{
+					"qualityLevel": 5,
+					"chance": 0.5
+				},				
+				{
+					"qualityLevel": 6,
+					"chance": 0.2
+				},
+				{
+					"qualityLevel": 7,
+					"chance": 0.1
+				},
+				{
+					"qualityLevel": 8,
+					"chance": 0.05
+				},
+				{
+					"qualityLevel": 9,
+					"chance": 0.025
+				}
+			],
+			"radius": 0.25
 		},
+		"hitBox":
 		{
-			"uuid": "102565a0-c864-463e-b517-72e82242eec2",
-			"name": "obj_containers_plantcontaineropen",
-			"legacyId": 616,
-			"renderable": {
-				"lodList": [
-					{
-						"subMeshList": [
-							{
-								"textureList": [
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_plantcontainer_dif.tga",
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_plantcontainer_asg.tga",
-									"$GAME_DATA/Objects/Textures/containers/obj_containers_plantcontainer_nor.tga"
-								],
-								"material": "DifAsgNor"
-							}
-						],
-						"mesh": "$GAME_DATA/Objects/Mesh/containers/obj_containers_plantcontaineropen.mesh"
-					}
-				]
-			},
-			"color": "73adb7",
-			"box": {
-				"x": 2,
-				"y": 2,
-				"z": 2
-			},
-			"rotationSet": "PropY",
-			"physicsMaterial": "Wood",
-			"ratings": {
-				"density": 4,
-				"durability": 1,
-				"friction": 6,
-				"buoyancy": 1
-			},
-			"flammable": true
+			"halfWidth": 1.75,
+			"halfHeight": 1.25
+		},
+		"impactEffect": "Weapon - Impact"
+	},
+	"FarmbotBreach":
+	{
+		"destruction":
+		{
+			"destructionLevels":
+			[
+				{
+					"qualityLevel": 1,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 2,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 3,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 4,
+					"chance": 0.75
+				},
+				{
+					"qualityLevel": 5,
+					"chance": 0.6
+				},
+				{
+					"qualityLevel": 6,
+					"chance": 0.3
+				},
+				{
+					"qualityLevel": 7,
+					"chance": 0.15
+				},
+				{
+					"qualityLevel": 8,
+					"chance": 0.075
+				},
+				{
+					"qualityLevel": 9,
+					"chance": 0.0375
+				}
+			],
+			"radius": 0.5
+		},
+		"hitBox":
+		{
+			"halfWidth": 1.75,
+			"halfHeight": 1.25
+		},
+		"impactEffect": "Weapon - Impact"
+	},
+	"FarmbotStep":
+	{
+		"destruction":
+		{
+			"destructionLevels":
+			[
+				{
+					"qualityLevel": 1,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 2,
+					"chance": 0.5
+				},
+				{
+					"qualityLevel": 3,
+					"chance": 0.25	
+				},
+				{
+					"qualityLevel": 4,
+					"chance": 0.2
+				}
+			],
+			"radius": 0.25
+		},
+		"hitBox":
+		{
+			"halfWidth": 1.75,
+			"halfHeight": 0.75
 		}
-	]
+	}
+}
+{
+	"Sledgehammer":
+	{
+		"destruction":
+		{
+			"destructionLevels":
+			[
+				{
+					"qualityLevel": 1,
+					"chance": 1.0
+				}
+			]
+		},
+		"hitSphere":
+		{
+			"radius": 0.01
+		},
+		"impactEffect": "Weapon - Impact"
+	},
+	"ToteBotAttack":
+	{
+		"destruction":
+		{
+			"destructionLevels":
+			[
+				{
+					"qualityLevel": 1,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 2,
+					"chance": 0.5
+				},
+				{
+					"qualityLevel": 3,
+					"chance": 0.2
+				},
+				{
+					"qualityLevel": 4,
+					"chance": 0.1
+				},
+				{
+					"qualityLevel": 5,
+					"chance": 0.05
+				},
+				{
+					"qualityLevel": 6,
+					"chance": 0.01
+				},
+				{
+					"qualityLevel": 7,
+					"chance": 0.001
+				},
+				{
+					"qualityLevel": 8,
+					"chance": 0.0
+				},
+				{
+					"qualityLevel": 9,
+					"chance": 0.0
+				}
+			]
+		},
+		"hitSphere":
+		{
+			"radius": 0.1
+		},
+		"impactEffect": "Weapon - Impact"
+	},
+	"ToteBotWhip":
+	{
+		"destruction":
+		{
+			"destructionLevels":
+			[
+				{
+					"qualityLevel": 1,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 2,
+					"chance": 0.5
+				},
+				{
+					"qualityLevel": 3,
+					"chance": 0.2
+				},
+				{
+					"qualityLevel": 4,
+					"chance": 0.1
+				},
+				{
+					"qualityLevel": 5,
+					"chance": 0.05
+				},
+				{
+					"qualityLevel": 6,
+					"chance": 0.01
+				},
+				{
+					"qualityLevel": 7,
+					"chance": 0.001
+				},
+				{
+					"qualityLevel": 8,
+					"chance": 0.0
+				},
+				{
+					"qualityLevel": 9,
+					"chance": 0.0
+				}
+			]
+		},
+		"hitSphere":
+		{
+			"radius": 0.1
+		},
+		"impactEffect": "Weapon - Impact"
+	},
+	"HaybotPitchfork":
+	{
+		"destruction":
+		{
+			"destructionLevels":
+			[
+				{
+					"qualityLevel": 1,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 2,
+					"chance": 0.6
+				},
+				{
+					"qualityLevel": 3,
+					"chance": 0.35
+				},
+				{
+					"qualityLevel": 4,
+					"chance": 0.25
+				},
+				{
+					"qualityLevel": 5,
+					"chance": 0.125
+				},
+				{
+					"qualityLevel": 6,
+					"chance": 0.025
+				},
+				{
+					"qualityLevel": 7,
+					"chance": 0.005
+				},
+				{
+					"qualityLevel": 8,
+					"chance": 0.001
+				},
+				{
+					"qualityLevel": 9,
+					"chance": 0.0
+				}
+			],
+			"radius": 0.25
+		},
+		"hitSphere":
+		{
+			"radius": 0.15
+		},
+		"impactEffect": "Weapon - Impact"
+	},
+	"HaybotPitchforkSwipe":
+	{
+		"hitBox":
+		{
+			"halfWidth": 1.5,
+			"halfHeight": 0.375
+		},
+		"impactEffect": "Weapon - Impact"
+	},
+	"FarmbotSwipe":
+	{
+		"destruction":
+		{
+			"destructionLevels":
+			[
+				{
+					"qualityLevel": 1,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 2,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 3,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 4,
+					"chance": 0.5
+				},
+				{
+					"qualityLevel": 5,
+					"chance": 0.18
+				},
+				{
+					"qualityLevel": 6,
+					"chance": 0.1
+				},
+				{
+					"qualityLevel": 7,
+					"chance": 0.02
+				},
+				{
+					"qualityLevel": 8,
+					"chance": 0.01
+				},
+				{
+					"qualityLevel": 9,
+					"chance": 0.01
+				}
+			],
+			"radius": 0.25
+		},
+		"hitBox":
+		{
+			"halfWidth": 1.75,
+			"halfHeight": 1.25
+		},
+		"impactEffect": "Weapon - Impact"
+	},
+	"FarmbotBreach":
+	{
+		"destruction":
+		{
+			"destructionLevels":
+			[
+				{
+					"qualityLevel": 1,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 2,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 3,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 4,
+					"chance": 0.5
+				},
+				{
+					"qualityLevel": 5,
+					"chance": 0.25
+				},
+				{
+					"qualityLevel": 6,
+					"chance": 0.1
+				},
+				{
+					"qualityLevel": 7,
+					"chance": 0.05
+				},
+				{
+					"qualityLevel": 8,
+					"chance": 0.02
+				},
+				{
+					"qualityLevel": 9,
+					"chance": 0.01
+				}
+			],
+			"radius": 0.5
+		},
+		"hitBox":
+		{
+			"halfWidth": 1.75,
+			"halfHeight": 1.25
+		},
+		"impactEffect": "Weapon - Impact"
+	},
+	"FarmbotStep":
+	{
+		"destruction":
+		{
+			"destructionLevels":
+			[
+				{
+					"qualityLevel": 1,
+					"chance": 1.0
+				},
+				{
+					"qualityLevel": 2,
+					"chance": 0.5
+				},
+				{
+					"qualityLevel": 3,
+					"chance": 0.25	
+				},
+				{
+					"qualityLevel": 4,
+					"chance": 0.2
+				}
+			],
+			"radius": 0.25
+		},
+		"hitBox":
+		{
+			"halfWidth": 1.75,
+			"halfHeight": 0.75
+		}
+	}
 }
