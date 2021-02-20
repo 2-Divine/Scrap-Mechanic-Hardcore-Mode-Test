@@ -28,7 +28,7 @@
 				"z": 2
 			},
 			"chest": {
-				"slots": 5
+				"slots": 10
 			},
 			"rotationSet": "StaticYmZmXm",
 			"physicsMaterial": "Wood",
