@@ -942,7 +942,7 @@ function FarmbotUnit.sv_spawnParts( self )
 	local bodyOffset = bodyRot * sm.vec3.new( -0.25, 0.25, 0.375 )
 	bodyPos = bodyPos - bodyOffset
 
-	if math.random( 1, 5 ) == 1 then
+	if math.random( 1, 3 ) == 1 then
 	local headBody = sm.body.createBody( bodyPos, bodyRot, true )
 	local headShape = headBody:createPart( obj_robotparts_farmbotpart_head, sm.vec3.new( 0, 3, 5 ), sm.vec3.new( 0, 1, 0 ), sm.vec3.new( -1, 0, 0 ), true )
 	end
