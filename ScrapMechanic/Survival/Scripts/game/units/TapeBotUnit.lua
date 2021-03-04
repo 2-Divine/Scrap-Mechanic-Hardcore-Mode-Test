@@ -705,7 +705,7 @@ function TapebotUnit.sv_spawnParts( self, impact, headDestroyed )
 	local bodyOffset = bodyRot * sm.vec3.new( -0.25, 0.25, 0.375 )
 	bodyPos = bodyPos - bodyOffset
 
-	if math.random( 1, 8 ) == 1 then
+	if math.random( 1, 5 ) == 1 then
 	local headBody = sm.body.createBody( bodyPos, bodyRot, true )
 	local headShape = headBody:createPart( obj_robotparts_tapebothead01, sm.vec3.new( 0, 1, 2 ), sm.vec3.new( 0, 1, 0 ), sm.vec3.new( -1, 0, 0 ), true )
 		if headDestroyed == true then
